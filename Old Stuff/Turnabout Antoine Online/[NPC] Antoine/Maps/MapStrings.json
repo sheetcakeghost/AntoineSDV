@@ -1,0 +1,38 @@
+{
+    "Changes": 
+      [
+      //Map Strings
+        {
+          "LogName": "Map Strings",
+          "Action": "EditData",
+          "Target": "strings/StringsFromMaps",
+          "Entries": {
+
+          //Interior Seasonal Strings
+            //Baked Goods
+          "spring.bake": "They're colorful macaroons. They look fresh.",
+          "summer.bake": "It's a pink jelly. Maybe it's strawberry?",
+          "fall.bake": "It's a delicious looking cake. It smells like dark chocolate and berries.",
+          "winter.bake": "It looks like the festival treat, but something seems different about it.",
+            //Drinks
+          "spring.drink": "It's green tea with some honey to mix in off to the side.",
+          "summer.drink": "It's a lemon cordial. Very refreshing.",
+          "fall.drink": "It's a blackberry and wild plum cider. It still feels warm.",
+          "winter.drink": "This is a lot of hot chocolate. Does he drink it by the gallon?",
+
+          //Interior General Strings
+          "general.seeds": "It's a box packed full of mixed seeds.",
+
+          //Interior Random Strings
+            //Laptop
+            "laptop.001": "His tabs are full of cat videos.",
+
+          //Interior Event Strings
+            //Laptop
+          "laptop.luau": "Seems Antoine was looking up 'Best things to put inside big soup'.",
+
+          }
+        }
+      ]
+  }
+      

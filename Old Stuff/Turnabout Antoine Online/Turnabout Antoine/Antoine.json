@@ -1,0 +1,998 @@
+///////////////////////////////////////////////////////
+//                                                   //
+//            ██████  ██ ███████ ████████            //
+//           ██       ██ ██         ██               //
+//           ██   ███ ██ █████      ██               //
+//           ██    ██ ██ ██         ██               //
+//            ██████  ██ ██         ██               //
+//                                                   //
+///////////////////////////////////////////////////////
+
+
+"Antoine.gift.love.1.1": "Oh! This is great! Thank you!$h",
+"Antoine.gift.like.1.1": "Oh this is very nice. Thank you.$0",
+"Antoine.gift.dislike.1.1": "You're giving this to me? Um. Okay. Thank you.$0",
+"Antoine.gift.hate.1.1": "Um. I don't really know what I'd do with this. Thanks anyway though.$s",
+"Antoine.gift.neutral.1.1": "Is this a gift? That's very nice of you. Thank you.$0",
+
+"Antoine.gift.love.2": "What a wonderful present! Thanks!$h",
+"Antoine.gift.like.2": "This is a very nice present. Thank you for thinking of me.$0",
+"Antoine.gift.dislike.2": "Is that a present? Thanks, I'll, uh, I'll find a use for it. Probably.$0",
+"Antoine.gift.hate.2": "... Maybe next time you could give me something else? Sorry.$s",
+"Antoine.gift.neutral.2": "Oh, for me? That's so nice. Thank you.$0",
+
+"Antoine.player-killed.not.spouse":"Look, I'm glad you're okay, but you should really try and take better care of yourself.$a",
+
+"Antoine.PhoneCall.1":"Hey, @! I was cutting some vegetables for a snack and got an urge to call you.$h",
+"Antoine.PhoneCall.2":"Hi, @! Did I catch you at a good time? I can call you back if you're busy.$h",
+
+
+//Note: These are meant to be used specifically when Antoine is given a yam related gift. (If we have the frameworks to support it.)
+
+/*/
+
+//Gifted Yam
+"accept_280": "A yam? Thanks, @! This is my favorite snack! They're just so versatile!$h",
+
+//Gifted Snow Yam
+"accept_416": "Ah, the snow yam. A little more bitter than the yam you grow in the fall, but still tasty. Thank you! You really made my day.$h",
+
+//Gifted Glazed Yams
+"accept_208": "Ooooh, it smells delicious! Thanks, @! I'm going to eat this as soon as I get home.$h",
+
+//Gifted Yam Seeds
+"accept_492": "Yam seeds! I've been needing more of these. Thank you!$h",
+
+/*/
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+//                                                                                   //
+//           ███████ ███████ ███████ ████████ ██ ██    ██  █████  ██                 //
+//           ██      ██      ██         ██    ██ ██    ██ ██   ██ ██                 //
+//           █████   █████   ███████    ██    ██ ██    ██ ███████ ██                 //
+//           ██      ██           ██    ██    ██  ██  ██  ██   ██ ██                 //
+//           ██      ███████ ███████    ██    ██   ████   ██   ██ ███████            //
+//                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////
+
+
+/*/  Generic Festival /*/
+"Antoine.festival-default": "Hmmm, I wonder if there are any good snacks left?$0",
+
+/*/ Egg Festival /*/
+"Antoine.spring13.unmet": "A whole festival all about eggs! I'm so excited! What a fun thing to celebrate!$1",
+"Antoine.spring13.friendly": "Maybe next year we can invite all the chickens that brought us the eggs today. I bet they'd love a festival all about them.$h",
+
+/*/ Flower Festival /*/
+"Antoine.spring24.unmet": "Aw, thanks for talking to me. You might want to focus on chatting with the person you want to ask to dance though.$h",
+"Antoine.spring24.friendly": "You know, for something all about flowers, I really don't see all that many flowers here. Do you think they got their invitations?$0",
+
+/*/ Dance of the Moonlight Jellies /*/
+"Antoine.summer28.unmet": "People can be really kind and thoughtful to creatures they don't fully understand. I think that's just wonderful.$h",
+"Antoine.summer28.friendly": "The jellies are so happy that everyone comes to see them off, you know? They think the lanterns are really cute too.$h",
+
+/*/ Marketpalooza (from Fellowclown.Nikolai mod) /*/
+"Antoine_Marketpalooza.000": "Do you like the snacks? I made them myself! I sort of felt obligated since this happens in my front yard and all.$h",
+
+/*/ Fair /*/
+"Antoine.fall16.unmet": "Have you talked to the Fortune Teller? She has such fun stories!$h",
+"Antoine.fall16.friendly": "I always feel a bit dizzy just watching everyone run around. There's so much energy here, you know? It's kind of intoxicating.$0",
+
+/*/ Spirit's Eve /*/
+"Antoine.fall27.unmet": "I wish people could celebrate monsters all year round. Maybe they'd be nicer to them.$s",
+"Antoine.fall27.friendly": "Today everyone gets to dress up as monsters or fairies or princesses. Really anything they want. I'm glad people are so comfortable turning into something else here, even if it's just for one night.$h",
+
+/*/ Feast of the Winter Star /*/
+"Antoine.winter25.unmet": "Ugh, it's so coooold. I'm not even sure the food is worth it.$6", 
+"Antoine.winter25.friendly": "I know there's more about the feast than just, well, the feast part, but that's all I can ever think about! I guess I'm just not in a giving mood when it's so cold out.$6",
+
+
+
+
+/////////////////////////////////////////////////////////////////
+//                                                             //
+//           ██ ███    ██ ████████ ██████   ██████             //
+//           ██ ████   ██    ██    ██   ██ ██    ██            //
+//           ██ ██ ██  ██    ██    ██████  ██    ██            //
+//           ██ ██  ██ ██    ██    ██   ██ ██    ██            //
+//           ██ ██   ████    ██    ██   ██  ██████             //
+//                                                             //
+/////////////////////////////////////////////////////////////////
+
+
+"intro.Antoine.spring.1": "Oh! Nice to meet you, I'm Antoine. You have some pretty heavy energies around you. I bet you make a big impact on things in your town.$h",
+"intro.Antoine.spring.2": "Hey, it's good to meet you! I hope we can be really good friends.$h",
+
+"intro.Antoine.summer.1": "Hello! It's great to meet you! I'm Antoine. You have some pretty heavy energies around you. I bet you make a big impact on things in your town.$h",
+"intro.Antoine.summer.2": "Oh, you've got a real sense of the earth about you. I bet we'll get along great.$h",
+
+"intro.Antoine.fall.1": "Ah, hello there. I'm Antoine. You have the look of someone who shoulders a lot of responsibility. Let me know if there's anything I can do to help you with that.$0",
+"intro.Antoine.fall.2": "Nice to meet you, do you have a favorite warm drink? I'd love to make you some if you've got time.",
+
+"intro.Antoine.winter.1": "%The man is smiling, but it looks forced somehow.#b#Hello, I'm Antoine. It's nice to see a new face. I hope you enjoy your stay in town.$0",
+"intro.Antoine.winter.2": "Oh, hey there. I'm Antoine. Nice to meet you.$0",
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+//                                                                   //
+//           ██ ███████ ██       █████  ███    ██ ██████             //
+//           ██ ██      ██      ██   ██ ████   ██ ██   ██            //
+//           ██ ███████ ██      ███████ ██ ██  ██ ██   ██            //
+//           ██      ██ ██      ██   ██ ██  ██ ██ ██   ██            //
+//           ██ ███████ ███████ ██   ██ ██   ████ ██████             //
+//                                                                   //
+///////////////////////////////////////////////////////////////////////
+
+"Resort_Entering.Antoine.spring.1": "You know, coconuts are really useful. It's great for your skin and hair, and when you're done with the flesh, you can make a fun hat out of it too!$h",
+"Resort_Entering.Antoine.spring.2": "",
+
+"Resort_Entering.Antoine.summer.1": "I here there are pirates somewhere on this island. You stay safe, okay?$s",
+"Resort_Entering.Antoine.summer.2": "",
+
+"Resort_Entering.Antoine.fall.1": "Mmm, I can already feel my bones warming up. Don't tell that professor though, he seems sort of obsessed with bones.$h",
+"Resort_Entering.Antoine.fall.2": "",
+
+"Resort_Entering.Antoine.winter.1": "Aaaah, it's so warm here. If I could I'd probably just live here until winter is over.$h",
+"Resort_Entering.Antoine.winter.2": "",
+
+"Resort_Leaving.Antoine.spring.1": "Ha ha, I sort of feel like I just got here, but I'm looking forward to getting home too.$h",
+"Resort_Leaving.Antoine.spring.2": "",
+
+"Resort_Leaving.Antoine.summer.1": "It sort of feels like it's summer here all year round, doesn't it? Maybe I should think of coming here more often when it's cold...$0",
+"Resort_Leaving.Antoine.summer.2": "",
+
+"Resort_Leaving.Antoine.fall.1": "I asked Gus if he could mix some drinks with more spice in them, but I think he thought I meant adding a lot of hot peppers. It was still tasty though.$0",
+"Resort_Leaving.Antoine.fall.2": "",
+
+"Resort_Leaving.Antoine.winter.1": "I really don't want to go back, but I have to. I still have responsibilities to attend to, after all.$s",
+"Resort_Leaving.Antoine.winter.2": "",
+
+"Resort_Shore.Antoine.spring.1": "There are a lot of parrots here, but that's not really surprising. They're very social birds. Sometimes a flock can have thousands of them in it.$h",
+"Resort_Shore.Antoine.spring.2": "You know what's neat? Ocean plants give make most of the world's oxygen. They're sturdy little guys.$h",
+
+"Resort_Shore.Antoine.summer.1": "Ginger always reminds me of tiger slimes. They smell good too.$h",
+"Resort_Shore.Antoine.summer.2": "",
+
+"Resort_Shore.Antoine.fall.1": "Some jellyfish are immortal. Just another one of their vast mysteries. Don't you think?$7",
+"Resort_Shore.Antoine.fall.2": "",
+
+"Resort_Shore.Antoine.winter.1": "The air feels really fresh by the sand, doesn't it?",
+"Resort_Shore.Antoine.winter.2": "",
+
+"Resort_Umbrella.Antoine.spring.1": "Did you know that tap-root vegetables really thrive in sand? Sandy soil is roomy and water sifts through it quickly so they can drink a lot and get pretty big without all that clay in the way.$h",
+"Resort_Umbrella.Antoine.spring.2": "",
+
+"Resort_Umbrella.Antoine.summer.1": "I heard that the pineapple is called that because it looks like a child's head with a thousand eyes.$h",
+"Resort_Umbrella.Antoine.summer.2": "",
+
+"Resort_Umbrella.Antoine.fall.1": "I finally managed to bribe a monkey into getting me some magma caps. I can't wait to put some in a salad.$h",
+"Resort_Umbrella.Antoine.fall.2": "",
+
+"Resort_Umbrella.Antoine.winter.1": "Have you ever thought about, just, drinking lava?$7",
+"Resort_Umbrella.Antoine.winter.2": "",
+
+"Resort_Wander.Antoine.spring.1": "Have you seen the monkey's floating in lava in the volcano? Apparently they have really high standards for being petted.$8",
+"Resort_Wander.Antoine.spring.2": "",
+
+"Resort_Wander.Antoine.summer.1": "I'm going to gather so much ginger while I'm here. The spice of it is just perfect for adding warmth to a dish.$0",
+"Resort_Wander.Antoine.summer.2": "",
+
+"Resort_Wander.Antoine.fall.1": "Maybe I should ask the parrots where the best place to find walnuts is?$7",
+"Resort_Wander.Antoine.fall.2": "",
+
+"Resort_Wander.Antoine.winter.1": "Dr. Harvey says I should drink more ginger tea when I'm not feeling my best. Apparently ginger can help with serotonin.$0",
+"Resort_Wander.Antoine.winter.2": "",
+
+"Resort_Bar.Antoine.spring.1": "",
+"Resort_Bar.Antoine.spring.2": "",
+
+"Resort_Bar.Antoine.summer.1": "",
+"Resort_Bar.Antoine.summer.2": "",
+
+"Resort_Bar.Antoine.fall.1": "",
+"Resort_Bar.Antoine.fall.2": "",
+
+"Resort_Bar.Antoine.winter.1": "",
+"Resort_Bar.Antoine.winter.2": "",
+
+"Resort.Antoine.spring.1": "The biome here is so interesting. I've been finding all sorts of epiphylls.$h#b#Epiphylls? They're tiny non-vascular plants that grow on leaves, like moss or algae. They don't have any roots, you see, they absorb water and nutrients from the air. Isn't that neat?$l",
+"Resort.Antoine.spring.2": "",
+
+"Resort.Antoine.summer.1": "",
+"Resort.Antoine.summer.2": "",
+
+"Resort.Antoine.fall.1": "",
+"Resort.Antoine.fall.2": "",
+
+"Resort.Antoine.winter.1": "",
+"Resort.Antoine.winter.2": "",
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+//                                                                          //
+//           ███████  █████  ██       ██████   ██████  ███    ██            //
+//           ██      ██   ██ ██      ██    ██ ██    ██ ████   ██            //
+//           ███████ ███████ ██      ██    ██ ██    ██ ██ ██  ██            //
+//                ██ ██   ██ ██      ██    ██ ██    ██ ██  ██ ██            //
+//           ███████ ██   ██ ███████  ██████   ██████  ██   ████            //
+//                                                                          //
+//////////////////////////////////////////////////////////////////////////////
+
+
+"Saloon.Antoine.spring.1": "One time I listened to Gus and Pam debate for hours if cereal counts as a soup or not. Pam was staunchly pro soup, but honestly it seems too chunky to be a soup. Maybe a stew?$7",
+"Saloon.Antoine.spring.2": "",
+
+"Saloon.Antoine.summer.1": "I asked Demetrius once what radioactive vegetables would taste like, and he said that it wouldn't taste like anything, and in fact, we'd never know if it was irradiated at all. How spooky.$7",
+"Saloon.Antoine.summer.2": "",
+
+"Saloon.Antoine.fall.1": "I heard Maru and Sam arguing about if chickens came first or eggs did. It sort of devolved into Maru yelling eggs come first, and Sam yelling chickens come first. Then Abigail started laughing and wouldn't explain why.$7",
+"Saloon.Antoine.fall.2": "",
+
+"Saloon.Antoine.winter.1": "You know, the sun looks bigger during the winter. Demetrius says it's because the sun is closer to us, but it sure doesn't make things any warmer.$2",
+"Saloon.Antoine.winter.2": "",
+
+"Saloon2.Antoine.spring.1": "I accidentally startled Haley the other day by watering a flower while she was trying to take a picture of some birds. She had some ... opinions about it.$s",
+"Saloon.Antoine.spring.2": "",
+
+"Saloon2.Antoine.summer.1": "Do you know what to cook with cactus fruit? Emily brought some back with her when she went to visit her friend in the Calico Desert, and was very kind to give me some.$h",
+"Saloon2.Antoine.summer.2": "",
+
+"Saloon2.Antoine.fall.1": "Why do people complain about burning when they eat hot peppers? They don't seem that hot to me.$7#$b#Emily said that birds don't think hot peppers are hot either.$h",
+"Saloon2.Antoine.fall.2": "",
+
+"Saloon2.Antoine.winter.1": "Gus says that coffee stays warmer if you add cream to it. I wonder if that applies to hot chocolate too?$0",
+"Saloon2.Antoine.winter.2": "",
+
+"Saloon4.Antoine.spring.1": "Gus said the taste of Pam's tuna casserole was indescribable, which I find really confusing. Didn't he just describe it?$7",
+"Saloon4.Antoine.spring.2": "",
+
+"Saloon4.Antoine.summer.1": "Vincent swallowed some gum yesterday and thought he was going to die because it was going to plug up his organs.$2#$b#Luckily Dr. Harvey was close by. He pretended he was giving him a piece of candy that would melt the gum in his stomach. Vincent perked right up.$h",
+"Saloon4.Antoine.summer.2": "",
+
+"Saloon4.Antoine.fall.1": "I wonder why Abigail laughs when I talk about how big eggplants are?$7",
+"Saloon4.Antoine.fall.2": "",
+
+"Saloon4.Antoine.winter.1": "I was telling Eloise and Jas that holly is actually a stone fruit, but then Vincent wanted to some. Luckily Penny managed to stop him in time.$0",
+"Saloon4.Antoine.winter.2": "",
+
+"Saloon6.Antoine.spring.1": "You know, Pierre and Morris seem to really hate each other even though they have a lot in common. If they just sat down and talked they could probably be good friends.$7",
+"Saloon6.Antoine.spring.2": "",
+
+"Saloon6.Antoine.summer.1": "I love watching Gus work in his back yard. Blacksmithing is a rare talent, and the coolest part is that it uses all four elements to forge something.$h",
+"Saloon6.Antoine.summer.2": "",
+
+"Saloon6.Antoine.fall.1": "Do you ever take a second to play pool at the table over there? No? Me either. I always feel like it'd be rude to touch it.$0",
+"Saloon6.Antoine.fall.2": "",
+
+"Saloon6.Antoine.winter.1": "Everyone insisted I get out today",
+"Saloon6.Antoine.winter.2": "",
+
+"Saloon8.Antoine.spring.1": "Demetrius says that potatoes were the first vegetable they grew in space. Isn't that neat?$l",
+"Saloon8.Antoine.spring.2": "",
+
+"Saloon8.Antoine.summer.1": "",
+"Saloon8.Antoine.summer.2": "",
+
+"Saloon8.Antoine.fall.1": "",
+"Saloon8.Antoine.fall.2": "",
+
+"Saloon8.Antoine.winter.1": "",
+"Saloon8.Antoine.winter.2": "",
+
+"Saloon10.Antoine.spring.1": "",
+"Saloon10.Antoine.spring.2": "",
+
+"Saloon10.Antoine.summer.1": "",
+"Saloon10.Antoine.summer.2": "",
+
+"Saloon10.Antoine.fall.1": "",
+"Saloon10.Antoine.fall.2": "",
+
+"Saloon10.Antoine.winter.1": "",
+"Saloon10.Antoine.winter.2": "",
+
+
+
+
+///////////////////////////////////////////////////////////
+//                                                       //
+//           ██████   █████  ██ ██   ██    ██            //
+//           ██   ██ ██   ██ ██ ██    ██  ██             //
+//           ██   ██ ███████ ██ ██     ████              //
+//           ██   ██ ██   ██ ██ ██      ██               //
+//           ██████  ██   ██ ██ ███████ ██               //
+//                                                       //
+///////////////////////////////////////////////////////////
+
+
+/*/ 0-Hearts ~ Spring /*/
+"mon.Antoine.spring.1": "I love the spring, the flowers really start singing.$h",
+"mon.Antoine.spring.2": "",
+"tue.Antoine.spring.1": "Do you find yourself really busy this time of year? I just can't seem to get everything done before summer brings in new flowers.$0",
+"tue.Antoine.spring.2": "",
+"wed.Antoine.spring.1": "Are you ready for summer yet, @? I never really feel like I am.$0",
+"wed.Antoine.spring.2": "",
+"thu.Antoine.spring.1": "Hey, @. Out for a nice walk? Me too!$h",
+"thu.Antoine.spring.2": "",
+"fri.Antoine.spring.1": "You know, I've been here for a while now and I still haven't gotten used to how dry the air is.$0",
+"fri.Antoine.spring.2": "",
+"sat.Antoine.spring.1": "Have I told you that I really appreciate that you take so much time out of your day to chat with me? Well now I am!$h",
+"sat.Antoine.spring.2": "",
+"sun.Antoine.spring.1": "Have you ever looked at a sweet gem berry and just wanted to bite into it?$7#$b# Don't. It's a mistake.$2",
+"sun.Antoine.spring.2": "",
+
+/*/ 0-Hearts ~ Summer /*/
+"mon.Antoine.summer.1": "Phew! It's getting pretty hot, huh? I really hope it rains again soon!$h",
+"mon.Antoine.summer.2": "",
+"tue.Antoine.summer.1": "Back home it'd get so humid you could go outside and practically drown standing up.$h",
+"tue.Antoine.summer.2": "",
+"wed.Antoine.summer.1": "I heard on the wind that %favorite was your favorite thing in the world. I think that's really interesting.$h",
+"wed.Antoine.summer.2": "",
+"thu.Antoine.summer.1": "The other day I used a spell to chill my drink because I ran out of ice. A silly use of magic, I know, but man the drink was tasty.$h",
+"thu.Antoine.summer.2": "",
+"fri.Antoine.summer.1": "Do you like going out in the rain too? I see you out in it a lot.$1",
+"fri.Antoine.summer.2": "",
+"sat.Antoine.summer.1": "The mountain goats seem really lively in all this heat. I wonder why they like it so much? Maybe it reminds them of home?$0",
+"sat.Antoine.summer.2": "",
+"sun.Antoine.summer.1": "Hmmm. Jaz asked me to help her name one of the new chickens. What do you think of %name?$0",
+"sun.Antoine.summer.2": "",
+
+/*/ 0-Hearts ~ Fall /*/
+"mon.Antoine.fall.1": "%Antoine has a small plant in his hand and is using magic to keep the roots wet.#b#Oh, don't mind me, @. I'm just going to take this little guy somewhere warmer.$s",
+"mon.Antoine.fall.2": "",
+"tue.Antoine.fall.1": "Spring hasn't been gone that long, but I already kind of miss it.$0",
+"tue.Antoine.fall.2": "",
+"wed.Antoine.fall.1": "It's getting colder. I wish it could stay warm, but the colors are very nice, aren't they?$h",
+"wed.Antoine.fall.2": "",
+"thu.Antoine.fall.1": "I'm going to have to break out my scarf soon. It's very cozy, but sometimes wearing it for too long makes me itchy.$0",
+"thu.Antoine.fall.2": "",
+"fri.Antoine.fall.1": "Winter is coming. Forgive me if I'm a little melancholy, @. I always get this way before the snow falls.$0",
+"fri.Antoine.fall.2": "",
+"sat.Antoine.fall.1": "Ugh, it's getting colder again. I love all the fruit and forage you can find in the fall, but I really wish it'd just stay warm.$0",
+"sat.Antoine.fall.2": "",
+"sun.Antoine.fall.1": "I spent the week gathering hazelnuts to give to Linus, and he really enjoyed them. We roasted them over his fire together.%revealtasteLinus408$h",
+"sun.Antoine.fall.2": "",
+
+/*/ 0-Hearts ~ Winter /*/
+"mon.Antoine.winter.1": "I've roasted all of the hazelnuts I gathered in the fall. I was going to bring some to you, but I ended up just eating them all. Sorry.$0",
+"mon.Antoine.winter.2": "",
+"tue.Antoine.winter.1": "Nothing grows in winter but fiber and forage.$2#$b#Snow yams are pretty nice though.$0",
+"tue.Antoine.winter.2": "",
+"wed.Antoine.winter.1": "Cold weather doesn't seem to agree with me. I know it can't just stay warm forever, even the flowers need to rest sometimes.$s",
+"wed.Antoine.winter.2": "",
+"thu.Antoine.winter.1": "I've collected a bunch of snow yams to roast in my fireplace. They're a little bitter, but much softer and a bit warmer than regular yams.$0",
+"thu.Antoine.winter.2": "",
+"fri.Antoine.winter.1": "The snow is very pretty, and I love that there is water everywhere, even if it's frozen. I just wish it didn't bite me when I touched it.$0",
+"fri.Antoine.winter.2": "",
+"sat.Antoine.winter.1": "It's so cold! Huh? Why don't I just use magic to warm myself up? I really try not to use too much magic just on myself. People can get really twisted up that way.$s",
+"sat.Antoine.winter.2": "",
+"sun.Antoine.winter.1": "Do you think everyone would be upset if I brought home a pepper rex? This time of year that fire breath would be really nice to have around.$0",
+"sun.Antoine.winter.2": "",
+
+/*/ 2-Hearts ~ Spring /*/
+"mon2.Antoine.spring.1": "I was thinking this morning about how a honey bee worker only makes an average of 1/12 of a teaspoon in her lifetime.$7#$b#That doesn't sound like much to us, but for something so small that lives for such a short time, it really is a big contribution.$h",
+"mon2.Antoine.spring.2": "",
+"tue2.Antoine.spring.1": "So apparently everyone in East Scarpe complains about the crabs that show up there at night, but I don't really understand why. I've never had one pinch me once.$7",
+"tue2.Antoine.spring.2": "",
+"wed2.Antoine.spring.1": "The wizard says that space tastes like salmonberries. Now I just want to make a tart out of the galaxy.$u",
+"wed2.Antoine.spring.2": "",
+"thu2.Antoine.spring.1": "Aideen really respects her flowers and they can tell! That's why they want to look extra pretty for her.$h",
+"thu2.Antoine.spring.2": "",
+"fri2.Antoine.spring.1": "You have a pet, right @? I've thought about getting one, but they seem like a lot of trouble. I bet you feel like %pet is pretty worth it though, huh?$h",
+"fri2.Antoine.spring.2": "",
+"sat2.Antoine.spring.1": "Coffee beans are actually the pit of a berry, which technically makes them a fruit!$l#$b#I just thought that was neat.$h",
+"sat2.Antoine.spring.2": "",
+"sun2.Antoine.spring.1": "I'm going to miss watching petals dance in the soft breeze when spring is over.$0",
+"sun2.Antoine.spring.2": "",
+
+/*/ 2-Hearts ~ Summer /*/
+"mon2.Antoine.summer.1": "Everyone in town really seems to like summer time, don't they?$h",
+"mon2.Antoine.summer.2": "",
+"tue2.Antoine.summer.1": "It's really strange how some of the fruits that I enjoyed growing at home don't seem to like it here.$7#$b#I guess they just prefer a more humid climate.$0",
+"tue2.Antoine.summer.2": "",
+"wed2.Antoine.summer.1": "On a super hot day, the rain is really welcome. Don't you think?$0#$b#The flowers thinks so too.$h",
+"wed2.Antoine.summer.2": "",
+"thu2.Antoine.summer.1": "Back home sunflower's look like big, yellow, puff balls. I was pretty surprised when they had such cute faces here!$h",
+"thu2.Antoine.summer.2": "",
+"fri2.Antoine.summer.1": "I heard on the wind that %favorite was your favorite thing in the world. I think that's really interesting.$h",
+"fri2.Antoine.summer.2": "",
+"sat2.Antoine.summer.1": "Hey, @. What do you think color of a mirror is? I asked the wizard, but the answer took a couple of hours. I sort of zoned out half way through.$7",
+"sat2.Antoine.summer.2": "",
+"sun2.Antoine.summer.1": "Sometimes I sneak some magic into the feed Marnie gives to her chickens to give their feathers some more luster.$u#$b#Please don't tell Jaz though, she thinks they're looking better because she's been reading them bed time stories and it's making them happier.$h",
+"sun2.Antoine.summer.2": "",
+
+/*/ 2-Hearts ~ Fall /*/
+"mon2.Antoine.fall.1": "Fall leaves have all those colors inside of them all year round, but we only get to see it when they are about to let out their last breath.$h",
+"mon2.Antoine.fall.2": "",
+"tue2.Antoine.fall.1": "Hey, @, before you make a phone call, do you ever rehearse what you are going to say?$7#$b# I find it kind of helpful.$h",
+"tue2.Antoine.fall.2": "",
+"wed2.Antoine.fall.1": "Everybody talks about fall reminding them of pumpkins, but I always think about yams!$l#$b#They're just so tasty, and can go in anything, and they're really nice glazed or in a pie.$h",
+"wed2.Antoine.fall.2": "",
+"thu2.Antoine.fall.1": "Linus and I had a big yam bake last night!$h#$b#I couldn't really get him to come to my place to use the oven, but cooking everything over an open fire was just as nice.$0",
+"thu2.Antoine.fall.2": "",
+"fri2.Antoine.fall.1": "Spring hasn't been gone that long, but I already kind of miss it.$s",
+"fri2.Antoine.fall.2": "",
+"sat2.Antoine.fall.1": "I've always had mixed feelings about this time of year. Everything needs to change in order to grow, but also I miss what we lose in the process.$0",
+"sat2.Antoine.fall.2": "",
+"sun2.Antoine.fall.1": "Everyone seems to stay inside when it's raining, but I want to enjoy it before it turns to ice.$0",
+"sun2.Antoine.fall.2": "",
+
+/*/ 2-Hearts ~ Winter /*/
+"mon2.Antoine.winter.1": "Mmmm, I should have made more hot chocolate to drink. I finished my last mug of it earlier and I miss it already.$s",
+"mon2.Antoine.winter.2": "",
+"tue2.Antoine.winter.1": "It's so cold! Too cold! I can't wait for it to be warm again!$a",
+"tue2.Antoine.winter.2": "",
+"wed2.Antoine.winter.1": "Have you ever just cooked up a bunch of yams, crushed them up into a big bowl with honey, and just dug into it with your hands? It's so warm.$0",
+"wed2.Antoine.winter.2": "",
+"thu2.Antoine.winter.1": "I had a sort of lazy morning. It's hard to feel like getting things done sometimes.$6",
+"thu2.Antoine.winter.2": "",
+"fri2.Antoine.winter.1": "%Antoine smiles at you, but doesn't really feel like talking today.",
+"fri2.Antoine.winter.2": "",
+"sat2.Antoine.winter.1": "Oh, hello, @. Forgive me if I'm a little low energy today. It was a slow morning.",
+"sat2.Antoine.winter.2": "",
+"sun2.Antoine.winter.1": "Hey, @, do you ever wonder if ... $s#b#No, never mind. Have a great day today.$h",
+"sun2.Antoine.winter.2": "",
+
+/*/ 4-Hearts ~ Spring /*/
+"mon4.Antoine.spring.1": "You know, they didn't used to always call it spring. They had another word for it, but it was changed to springing because plants were springing forth from the ground.$l#$b#The name changed to spring-time about 100 years later and was eventually shortened to just spring.$l",
+"mon4.Antoine.spring.2": "",
+"tue4.Antoine.spring.1": "If I had a magic box that could bring back any inanimate object that I've lost in my entire life, I think I'd use it to bring back the ribbon that I lost when I tied up my new hair for the very first time.$0",
+"tue4.Antoine.spring.2": "",
+"wed4.Antoine.spring.1": "I was sort of surprised to see how small bees are in the valley. At home they're big bumbly guys.$h",
+"wed4.Antoine.spring.2": "",
+"thu4.Antoine.spring.1": "I woke up this morning and my porch was covered in pollen!$h#$b#I gathered it up with some wind magic and blew it towards some flowers, I hope it was helpful for them.$0",
+"thu4.Antoine.spring.2": "",
+"fri4.Antoine.spring.1": "Has anyone told you that you smell like the earth? Not just the soil, but the spirit too.$h",
+"fri4.Antoine.spring.2": "",
+"sat4.Antoine.spring.1": "You know, if I had to replace my left hand with a kitchen tool I think it would be a chef's knife.#b#Though, a serrated knife would be good too...$7",
+"sat4.Antoine.spring.2": "",
+"sun4.Antoine.spring.1": "Did you grow any parsnips this year, @?$l#$b#I bet they were huge!$h",
+"sun4.Antoine.spring.2": "",
+
+/*/ 4-Hearts ~ Summer /*/
+"mon4.Antoine.summer.1": "It got so hot last night I actually took a nap inside my fridge. Hmm? Yes, I know it's too small to fit a body.$h",
+"mon4.Antoine.summer.2": "",
+"tue4.Antoine.summer.1": "They're really hard to find, but purple mushrooms have such a unique flavor.$7#b#I tried to make some fried mushrooms from them for the wizard and, well, it was definitely received.$u",
+"tue4.Antoine.summer.2": "",
+"wed4.Antoine.summer.1": "I had to move some Sweet Peas today to another location. The other plants were bullying them out of root space because they were strangers there. They're having a much nicer time with their siblings.$0",
+"wed4.Antoine.summer.2": "",
+"thu4.Antoine.summer.1": "Have you been cutting a lot of grass lately? Be careful, @. If you cut the wrong plant it'll scream out for birds or some other predator to come and protect it.$s",
+"thu4.Antoine.summer.2": "",
+"fri4.Antoine.summer.1": "You know, plants can see, smell, hear, taste, and touch just like a person can. Plus ten to fifteen other things.$u",
+"fri4.Antoine.summer.2": "",
+"sat4.Antoine.summer.1": "Have you ever seen Mr. Frog eat food? They pull their eyes down into the roof of their mouth and use them to push it down their throat. It's really interesting to watch.$h",
+"sat4.Antoine.summer.2": "",
+"sun4.Antoine.summer.1": "Have you ever gone so high in a swing that you threw yourself out? It's pretty fun.$h#b#Though, uh, maybe make sure you have a good snack or elixir on hand before you do it.$0",
+"sun4.Antoine.summer.2": "",
+
+/*/ 4-Hearts ~ Fall /*/
+"mon4.Antoine.fall.1": "A friend was telling me about cave carrot brulee and my mouth started watering. Now I just HAVE to taste it.$h#$b#Oh, or maybe I'll try cave carrot au gratin instead?$7",
+"mon4.Antoine.fall.2": "",
+"tue4.Antoine.fall.1": "Fall leaves are brighter when there's been a lot of warm days followed by cold evenings. Just so long as it doesn't get too cold.#b#Ha ha, I feel the same way.$h",
+"tue4.Antoine.fall.2": "",
+"wed4.Antoine.fall.1": "%Antoine looks a little uncomfortable.#b#Oh, hey, @. It's a little extra chilly today, isn't it? I hope that doesn't mean winter is coming early.",
+"wed4.Antoine.fall.2": "",
+"thu4.Antoine.fall.1": "%Antoine is humming a song to himself and seems oblivious to everything else.",
+"thu4.Antoine.fall.2": "",
+"fri4.Antoine.fall.1": "I really love just wandering around and tasting all of the treats the bushes and trees prepare for everyone.$h",
+"fri4.Antoine.fall.2": "",
+"sat4.Antoine.fall.1": "I think I like tending to the flowers in the cemetary the best. The spirits don't have a way to tend to them for themselves, but they always enjoy their resting place looking nice.$h",
+"sat4.Antoine.fall.2": "",
+"sun4.Antoine.fall.1": "I caught a fat catfish in the river earlier. I should really get some milk to soak it in.",
+"sun4.Antoine.fall.2": "",
+
+/*/ 4-Hearts ~ Winter /*/
+"mon4.Antoine.winter.1": "I wish I could stay home when it's cold like this, but there are flowers that love the snow and it's not fair if I just ignore them because I'm uncomfortable.$2",
+"mon4.Antoine.winter.2": "",
+"tue4.Antoine.winter.1": "I don't feel up to doing all of my rounds today. I hope nobody hates me for not saying hi to them.$s",
+"tue4.Antoine.winter.2": "",
+"wed4.Antoine.winter.1": "Sometimes I wonder if eternity actually exists. One day the spheres may stop singing and everything would turn to nothingness. Though, I guess if it turns into nothing, it's technically still turning into something. Hmmm.$7",
+"wed.Antoine.winter.2": "",
+"thu4.Antoine.winter.1": "You're happy with the choice you made to leave one life and build another, right @? It must have been hard for you.$s#b#You must miss your old life sometimes, even if it's silly to.$0",
+"thu4.Antoine.winter.2": "",
+"fri4.Antoine.winter.1": "I'm really tired today. Maybe I'll sleep in tomorrow...",
+"fri4.Antoine.winter.2": "",
+"sat4.Antoine.winter.1": "Ha ha, I always get so lazy in the winter time. I just want to stay home all day and veg in front of my laptop.$0",
+"sat4.Antoine.winter.2": "",
+"sun4.Antoine.winter.1": "The sauce in frozen pizza is always so sweet. Is it too much to ask that my tomato sauce doesn't taste like candy?$6",
+"sun4.Antoine.winter.2": "",
+
+/*/ 6-Hearts ~ Spring /*/
+"mon6.Antoine.spring.1": "I don't know about Joja-Mart. Rosa got some lemon juice from there, but it said it had artificial flavors. Which I find really strange, because she got dish soap from there too and it had real lemons in it.$7",
+"mon6.Antoine.spring.2": "",
+"tue6.Antoine.spring.1": "%Antoine seems to be concentrating pretty hard about something. Probably best not to bother him.",
+"tue6.Antoine.spring.2": "",
+"wed6.Antoine.spring.1": "I remember when people used potatoes to cure colds. They'd put slices of them raw into their socks. Ha ha, it didn't really work that well, but I liked to help them get over the cold anyway because it was such a fun idea.$h",
+"wed6.Antoine.spring.2": "",
+"thu6.Antoine.spring.1": "You know, what you make your oil out of really matters. Oil from corn is pretty useful, but if you use it to make mayonnaise it'll be pretty sour.$h#b#When you use sunflowers the oil isn't great for cooking, but is really tasty in dressings. Neat, huh?$h",
+"thu6.Antoine.spring.2": "",
+"fri6.Antoine.spring.1": "People have been cooking for over a million years. It's always been something I wanted to get really good at. I think I'm doing a pretty good job.$h",
+"fri6.Antoine.spring.2": "",
+"sat6.Antoine.spring.1": "Oh! @! I read something really interesting! If you want your drink to cool down faster don't stir it. Stirring adds kinetic energy and that makes things hotter!$l",
+"sat6.Antoine.spring.2": "",
+"sun6.Antoine.spring.1": "Did you know the first ever recorded recipe was for beer? Beer was really important to people back then. Unfermented grain tastes pretty awful, so fermenting it provided people with a much needed source of protein. It even got used as currency for a while.$h",
+"sun6.Antoine.spring.2": "",
+
+/*/ 6-Hearts ~ Summer /*/
+"mon6.Antoine.summer.1": "Do you know what my favorite thing about cooking is? It's as much magic as it is science.$h",
+"mon6.Antoine.summer.2": "",
+"tue6.Antoine.summer.1": "The mind is so fascinating. I read online that round white plates makes people think food is sweeter, and black square plates make people think it's more savory. Isn't that cool?$l",
+"tue6.Antoine.summer.2": "",
+"wed6.Antoine.summer.1": "I learn so many neat things online, but sometimes I lose track of time doing it.$h",
+"wed6.Antoine.summer.2": "",
+"thu6.Antoine.summer.1": "If you're getting to hot you can stand under a tree. The shade is going to be 20° cooler. Plus the tree lowers air temperature by evaporating water on it's leaves.$0",
+"thu6.Antoine.summer.2": "",
+"fri6.Antoine.summer.1": "@! There were trees on the moon! I read online how the first astronauts grew some up there.$l#b#They were donated to a forestry center. Maybe I should visit them sometime?#h",
+"fri6.Antoine.summer.2": "",
+"sat6.Antoine.summer.1": "Ha ha, Eloise asked me if putting a bird house on a branch would make it go up too high when the tree grows. I told her that trees grow pretty slowly, but they also grow from the top. So the bird house won't go anywhere unless the wind blows it off.$h",
+"sat6.Antoine.summer.2": "",
+"sun6.Antoine.summer.1": "Carrots used to be purple instead of orange. They tasted pretty bitter, so people only cultivated the yellow carrot. Everyone worked very hard to make carrots tasty.$h",
+"sun6.Antoine.summer.2": "",
+
+/*/ 6-Hearts ~ Fall /*/
+"mon6.Antoine.fall.1": "Traditionally, this time of year my family and I would bless all the forage in the forest so that they get really plump and juicy. We'd have a little contest about who could make something grow the biggest!$h",
+"mon6.Antoine.fall.2": "",
+"tue6.Antoine.fall.1": "%Antoine seems extra focused today. On what you have no idea.#b#Huh? What am I thinking about? I'm trying to decide if I want glazed yams or baked yams for dinner.$0",
+"tue6.Antoine.fall.2": "",
+"wed6.Antoine.fall.1": "It's really too bad that red mushrooms are poisonous. They make a really tasty gravy.$0",
+"wed6.Antoine.fall.2": "",
+"thu6.Antoine.fall.1": "Do you know why owls can turn their head all the way around? It's because their eyes are tubes instead of balls.$l",
+"thu6.Antoine.fall.2": "",
+"fri6.Antoine.fall.1": "Have you ever seen a Guinea pig popcorn? It's when they get so excited they jump into the air like a kernel of popcorn. Horses can do it too. It's so cute!$h",
+"fri6.Antoine.fall.2": "",
+"sat6.Antoine.fall.1": "Hmm, I wonder how many days do you think it takes you to scroll a mile on my phone?$7",
+"sat6.Antoine.fall.2": "",
+"sun6.Antoine.fall.1": "I worry sometimes that people will never be able to live together peacefully, but it's comforting to know everyone will at least try.$0",
+"sun6.Antoine.fall.2": "",
+
+/*/ 6-Hearts ~ Winter /*/
+"mon6.Antoine.winter.1": "I learned yesterday that snow isn't white. It's actually clear and the light reflecting off of it makes it white. Just, uh, don't stare at it too long or you can go blind.$7",
+"mon6.Antoine.winter.2": "",
+"tue6.Antoine.winter.1": "Last night I was wondering if I'm actually alive or if I'm just existing. I want to think that I'm alive, but then I would think that, right? I didn't get much sleep.$s",
+"tue6.Antoine.winter.2": "",
+"wed6.Antoine.winter.1": "The valley has a pretty interesting natural resource in the winter time. Saffron is the stigma of the crocus flower. It's pretty hard to make a lot of it through. It takes over 70,000 flowers to just make a pound of it.$0#b#It'd be pretty impossible to make enough for everyone in town to use.$s",
+"wed.Antoine.winter.2": "",
+"thu6.Antoine.winter.1": "I went into a room this morning and forgot why I was there, which had me pretty confused because my house is just one big room.$s",
+"thu6.Antoine.winter.2": "",
+"fri6.Antoine.winter.1": "Do you think how we perceive reality is accurate? Everything is so subjective it's impossible to know for sure.$6",
+"fri6.Antoine.winter.2": "",
+"sat6.Antoine.winter.1": "All trees are mostly dead. The only parts of a tree are alive are the important parts. The leaves, buds, and roots. The rest of the tree is just a bunch of dead cells that it holds onto for years and years.$6",
+"sat6.Antoine.winter.2": "",
+"sun6.Antoine.winter.1": "Hey, @. When you hear the word life, what do you think about?$7#b#It always fills me with joy. I always try and remind myself of that.$h",
+"sun6.Antoine.winter.2": "",
+
+/*/ 8-Hearts ~ Spring /*/
+"mon8.Antoine.spring.1": "I remember when people thought the sky was actually another sea, like the ocean, and stars were just floating in it. It's a nice idea, isn't it? Just making a ship and sailing to the moon?$h",
+"mon8.Antoine.spring.2": "",
+"tue8.Antoine.spring.1": "Have you ever heard of the The Trembling Giant? It's a group of trees that have outlived everything else around it for centuries. They look like a forest, but they aren't. All of their roots are connected. So they're just one big organism.$h",
+"tue8.Antoine.spring.2": "",
+"wed8.Antoine.spring.1": "You know, I've thought a lot about what makes something a person. If it's their mind or their body. I'll let you know if I figure out an answer to that.$h",
+"wed8.Antoine.spring.2": "",
+"thu8.Antoine.spring.1": "I had a dream last night that I was still stuck in a dream and couldn't wake up. Am I even awake now?9",
+"thu8.Antoine.spring.2": "",
+"fri8.Antoine.spring.1": "You're really brave, you know that? You dropped your entire life to come a build a new one that would make you happier. I really admire you.$h",
+"fri8.Antoine.spring.2": "",
+"sat8.Antoine.spring.1": "You know, for thousands of years each generation had lives that was really similar to one another. Technology really shook that up, huh?$h",
+"sat8.Antoine.spring.2": "",
+"sun8.Antoine.spring.1": "Your hair looks really nice today!$h",
+"sun8.Antoine.spring.2": "",
+
+/*/ 8-Hearts ~ Summer /*/
+"mon8.Antoine.summer.1": "I spoke with the large tree in Cindersnap the other day, and did you know it's been in the valley for over five thousand years? It had so many fascinating things to talk about.$h",
+"mon8.Antoine.summer.2": "",
+"tue8.Antoine.summer.1": "I learned something really cool. Metal can weld itself in space through cold welding.$l#b#I feel like metal could weld itself here on a day like this.$h",
+"tue8.Antoine.summer.2": "",
+"wed8.Antoine.summer.1": "There's a large plant in the jungle that attracts bugs to eat by smelling like a rotting corpse. Flowers can be so resourceful, can't they?$h",
+"wed8.Antoine.summer.2": "",
+"thu8.Antoine.summer.1": "The goats in the mountain above East Scarp have such a strange accent.$7",
+"thu8.Antoine.summer.2": "",
+"fri8.Antoine.summer.1": "Dinosaur plants can bring themselves back from the dead. They can be without water for months, just sitting in a curled up dry ball. Then as soon as moisture hits them they spring back to life.$l#b#I've seen people do that too.$h",
+"fri8.Antoine.summer.2": "",
+"sat8.Antoine.summer.1": "Oh! Did you know that glass is an amorphous solid?$l#b#That means it's not a solid or a liquid. It just. Is. I like that idea a lot.$h",
+"sat8.Antoine.summer.2": "",
+"sun8.Antoine.summer.1": "Ha ha, I've thought about saying Ahoy-hoy instead of Hello on the phone, but I don't think a lot of people would get the reference.$h",
+"sun8.Antoine.summer.2": "",
+
+/*/ 8-Hearts ~ Fall /*/
+"mon8.Antoine.fall.1": "Orange fruits and vegetables are so energetic. It's no wonder why so many oranges want to be orange instead of green.$h",
+"mon8.Antoine.fall.2": "",
+"tue8.Antoine.fall.1": "Do you think people are ants trying to understand math? Is it possible for people to really understand the full depths of reality? I wonder about that sometimes.$7",
+"tue8.Antoine.fall.2": "",
+"wed8.Antoine.fall.1": "Did Hannah see bees? Hannah did. Ha ha, palindromes are so fun.$h",
+"wed8.Antoine.fall.2": "",
+"thu8.Antoine.fall.1": "There is a mushroom that excused thick red sap. Some people call it Strawberries and Cream while others call it Bleeding Tooth Fungus. It's interesting how people can see the same thing and yet see something totally different.$7",
+"thu8.Antoine.fall.2": "",
+"fri8.Antoine.fall.1": "You know, apples are a members of the rose family. I try to remember that when I'm feeling down about how I look.$h",
+"fri8.Antoine.fall.2": "",
+"sat8.Antoine.fall.1": "You need saliva to actually taste food. It's almost as important as a sense of smell.$h",
+"sat8.Antoine.fall.2": "",
+"sun8.Antoine.fall.1": "Be careful when you're upsetting crows. They can hold a grudge.$s",
+"sun8.Antoine.fall.2": "",
+
+/*/ 8-Hearts ~ Winter /*/
+"mon8.Antoine.winter.1": "I can't stand Cranberry Candy. The cranberry part is fine, but the apples? Ugh, it just makes me think of $8",
+"mon8.Antoine.winter.2": "",
+"tue8.Antoine.winter.1": "One day all of the stars will crash into one another creating total chaos. I'm glad I'll never be around to see that.$0",
+"tue8.Antoine.winter.2": "",
+"wed8.Antoine.winter.1": "There was a time when surgeons were trained to block out the screams of human pain. Can you imagine having to learn how to do that to be a doctor?$7",
+"wed.Antoine.winter.2": "",
+"thu8.Antoine.winter.1": "When a person is blindfolded they just gradually walk in a circle. They need to be able to see in order to walk anywhere with direct purpose. Sometimes I feel like I'm blindfolded too and I can't seem to take it off.$6#b#But then I have a nap and a snack and I usually feel better.$0",
+"thu8.Antoine.winter.2": "",
+"fri8.Antoine.winter.1": "I read that shadows are darker on the moon than they are here. There's no light to distribute through the atmosphere there.$s",
+"fri8.Antoine.winter.2": "",
+"sat8.Antoine.winter.1": "There are more trees in the world than there are stars in the sky. Just something I think about sometimes.$0",
+"sat8.Antoine.winter.2": "",
+"sun8.Antoine.winter.1": "I read that icebergs fizz like soda as they melt. I thought that was kind of neat.$0",
+"sun8.Antoine.winter.2": "",
+
+/*/ 10-Hearts ~ Spring /*/
+"mon10.Antoine.spring.1": "Eye of newt, toe of frog, and wool of bat are just an old way of saying mustard seed, buttercup, and holly leaves.$h",
+"mon10.Antoine.spring.2": "",
+"tue10.Antoine.spring.1": "Have you ever tried playing music for your cows? I heard they make more milk if you do. Let me know if that's true, okay?$7",
+"tue10.Antoine.spring.2": "",
+"wed10.Antoine.spring.1": "Ha ha, I mentioned my chicken fried steak recipe to the kids in my class and they all wanted to know how chickens can fry a steak.$h",
+"wed10.Antoine.spring.2": "",
+"thu10.Antoine.spring.1": "Color plays such an important part in taste. We all have our preconceived notions of what should taste like what and our brains will lie to us to make sure that stays true.$0#b#But then our brains like to lie about all sorts of things to protect our world view, doesn't it?#h",
+"thu10.Antoine.spring.2": "",
+"fri10.Antoine.spring.1": "I used to watch people take pictures with the most sour faces on. Smiling wasn't in fashion so they'd say prunes to keep their frown on. I'm glad no one does that anymore.$h",
+"fri10.Antoine.spring.2": "",
+"sat10.Antoine.spring.1": "I learned something really neat last night! The biggest waterfall in the world is actually under the water. Isn't that wild?$l",
+"sat10.Antoine.spring.2": "",
+"sun10.Antoine.spring.1": "Have you ever found a huge murder in your yard? I found one in mine and all of my vegetables were picked clean. Crows are really obnoxious sometimes.$8",
+"sun10.Antoine.spring.2": "",
+
+/*/ 10-Hearts ~ Summer /*/
+"mon10.Antoine.summer.1": "I hear the tanks our military is using are equipped to make tea. So that's something, I guess.$8",
+"mon10.Antoine.summer.2": "",
+"tue10.Antoine.summer.1": "People used to use corncobs before toilet paper was invented. So, uh, be glad that's not a thing anymore.$8",
+"tue10.Antoine.summer.2": "",
+"wed10.Antoine.summer.1": "Cucumbers are good for bad breath.$0#b#No, I'm not staying that for any specific reason. Just thought it was neat.$h",
+"wed10.Antoine.summer.2": "",
+"thu10.Antoine.summer.1": "Oh, I learned something neat. The dot over the letter \"I\" is called a tittle.$h#b#You're the first person I've told that to that hasn't laughed for some reason.$7",
+"thu10.Antoine.summer.2": "",
+"fri10.Antoine.summer.1": "The next time you cut yourself you should get out some sugar. The granules absorb any moisture that the bacteria would live on. But don't use that as an excuse not to see Dr. Harvey.$h",
+"fri10.Antoine.summer.2": "",
+"sat10.Antoine.summer.1": "Snails have teeth. 2,500 of them. That's more than even a shark has. They both use them to crush up their food though. So even sharks and snails can have something in common.$h",
+"sat10.Antoine.summer.2": "",
+"sun10.Antoine.summer.1": "If you don't like horror movies you should go see some abstract art afterward. Oddly enough you'll probably like the art more.$h",
+"sun10.Antoine.summer.2": "",
+
+/*/ 10-Hearts ~ Fall /*/
+"mon10.Antoine.fall.1": "It must be so dizzying to be a bee. Their eyes composite 5000 individual images. I think that would drive me nuts.$s",
+"mon10.Antoine.fall.2": "",
+"tue10.Antoine.fall.1": "I learned something cool online. A jiffy is actually a unit of time. It's 1/100th of a second.$l",
+"tue10.Antoine.fall.2": "",
+"wed10.Antoine.fall.1": "The backwards quotation mark is supposed to denote irony, but ironically no one really seems to use it.$h",
+"wed10.Antoine.fall.2": "",
+"thu10.Antoine.fall.1": "Some trees can change their gender from one season to the next. I always found that kind of inspiring.$h",
+"thu10.Antoine.fall.2": "",
+"fri10.Antoine.fall.1": "Honey is very cool. It never expires, you don't have to keep it cold to be fresh, and it can't fully freeze. It turns into a sort of gelatin instead.$h",
+"fri10.Antoine.fall.2": "",
+"sat10.Antoine.fall.1": "Whatever you do DON'T put grapes in the microwave. They explode!$9#b#Don't, uh, don't ask me how I know that.$s",
+"sat10.Antoine.fall.2": "",
+"sun10.Antoine.fall.1": "You know, vacuums used to be huge. You needed horses to take one to someone's house and professional put the hose in through your window. They've sure come a long way, huh?$h",
+"sun10.Antoine.fall.2": "",
+
+/*/ 10-Hearts ~ Winter /*/
+"mon10.Antoine.winter.1": "To prevent predators from finding them geckos will eat their own skin when they shed it. That's kind of poetic, isn't it?$0",
+"mon10.Antoine.winter.2": "",
+"tue10.Antoine.winter.1": "A snail can take a nap that lasts for three years. Something I wish I could do that too.$h",
+"tue10.Antoine.winter.2": "",
+"wed10.Antoine.winter.1": "Before I became human I spent a lot of time around people, learning anything I could from them, but totally unable to ask questions.$s#b#I can ask lots of questions now, but I'm starting to learn that some of them really shouldn't be asked.$6",
+"wed10.Antoine.winter.2": "",
+"thu10.Antoine.winter.1": "I don't know if I'll still be aware after death, but I hope not. Imagine everything ending and still being aware for millions of years with nothing around you.$6",
+"thu10.Antoine.winter.2": "",
+"fri10.Antoine.winter.1": "Some days I feel like I'm just waiting for something, and I can't do anything else while I wait, but there's nothing that I'm actually waiting for. Rather than dwell on it I just look at memes on the Internet and hope I don't feel like that after a night's sleep. That helps reset my brain, I guess.$s",
+"fri10.Antoine.winter.2": "",
+"sat10.Antoine.winter.1": "Man, frozen meals are really depressing. I really should just make a whole bunch of stuff in fall to just reheat for the winter.$s",
+"sat10.Antoine.winter.2": "",
+"sun10.Antoine.winter.1": "I can't wait for spring to get here so I can get out of this fog.$s",
+"sun10.Antoine.winter.2": "",
+
+
+
+
+//////////////////////////////////////////////////
+//                                              //
+//     ███████  █████  ██████  ███    ███      //
+//     ██      ██   ██ ██   ██ ████  ████      //
+//     █████   ███████ ██████  ██ ████ ██      //
+//     ██      ██   ██ ██   ██ ██  ██  ██      //
+//     ██      ██   ██ ██   ██ ██      ██      //
+//                                             //
+/////////////////////////////////////////////////
+
+
+"FarmhouseVisit.EntryQuestion.Antoine.spring":"",
+"FarmhouseVisit.EntryQuestion.Antoine.summer":"",
+"FarmhouseVisit.EntryQuestion.Antoine.fall":"",
+"FarmhouseVisit.EntryQuestion.Antoine.winter":"",
+
+"FarmhouseVisit.EntryBubble.Antoine.spring":"",
+"FarmhouseVisit.EntryBubble.Antoine.summer":"",
+"FarmhouseVisit.EntryBubble.Antoine.fall":"",
+"FarmhouseVisit.EntryBubble.Antoine.winter":"",
+
+"FarmhouseVisit.EntryDialogue.Antoine.spring":"",
+"FarmhouseVisit.EntryDialogue.Antoine.summer":"",
+"FarmhouseVisit.EntryDialogue.Antoine.fall":"",
+"FarmhouseVisit.EntryDialogue.Antoine.winter":"",
+
+"FarmhouseVisit.ExitDialogue.Antoine.spring":"",
+"FarmhouseVisit.ExitDialogue.Antoine.summer":"",
+"FarmhouseVisit.ExitDialogue.Antoine.fall":"",
+"FarmhouseVisit.ExitDialogue.Antoine.winter":"",
+
+"FarmhouseVisit.Dialogue1.Antoine.spring":"",
+"FarmhouseVisit.Dialogue1.Antoine.summer":"",
+"FarmhouseVisit.Dialogue1.Antoine.fall":"",
+"FarmhouseVisit.Dialogue1.Antoine.winter":"",
+
+"FarmhouseVisit.Dialogue2.Antoine.spring":"",
+"FarmhouseVisit.Dialogue2.Antoine.summer":"",
+"FarmhouseVisit.Dialogue2.Antoine.fall":"",
+"FarmhouseVisit.Dialogue2.Antoine.winter":"",
+
+"FarmhouseVisit.Dialogue3.Antoine.spring":"",
+"FarmhouseVisit.Dialogue3.Antoine.summer":"",
+"FarmhouseVisit.Dialogue3.Antoine.fall":"",
+"FarmhouseVisit.Dialogue3.Antoine.winter":"",
+
+"Antoine_Church.000.1": "",
+"Antoine_Church.001.1": "",
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                       //
+//           ███████  ██████ ██   ██ ███████ ██████  ██    ██ ██      ███████            //
+//           ██      ██      ██   ██ ██      ██   ██ ██    ██ ██      ██                 //
+//           ███████ ██      ███████ █████   ██   ██ ██    ██ ██      █████              //
+//                ██ ██      ██   ██ ██      ██   ██ ██    ██ ██      ██                 //
+//           ███████  ██████ ██   ██ ███████ ██████   ██████  ███████ ███████            //
+//                                                                                       //
+///////////////////////////////////////////////////////////////////////////////////////////
+
+//Note: Antoine does NOT like being out in the snow. 
+
+//He stills goes out to do his rounds, but if it's possible to code this, he would stay indoors as much as possible. 
+
+//I've added some alternative text for when he's inside. It's commented out so that it doesn't potentially break anything.
+
+"Antoine_Snow.000.1": "Ugh. It's already too cold when ice isn't falling out the the sky.$s",
+//Indoor Alt: "Antoine_Snow.000.1": "Oh, you came all the way to my home just to visit me? You must be freezing! Would you like a hot drink?$0",
+"Antoine_Snow.001.1": "%Antoine looks pretty grumpy. He probably doesn't want to talk to you.",
+//Indoor Alt: "Antoine_Snow.000.1": "I was wondering if you were going to come visit me today. I guess my schedule is kind of predictable when it comes to the snow, huh?$0",
+
+
+//Note: Antoine loves the rain and may be outside more often than is usual for his schedule on rainy days.
+
+"Antoine_Rain.000.1": "Ah, thank goodness, some refreshing rain.$1",
+"Antoine_Rain.001.1": "The rain feels so nice when it's warm outside, but getting my clothes wet is so uncomfortable. $1#$b#I wish I could walk around in it without them, but the last time I tried I got a lot of funny looks.$1",
+
+"Antoine_Nightmarket.000.1": "Ah, what a wonderful and unique time. I love how people come together like this.",
+"Antoine_Nightmarket.001.1": "",
+
+"Antoine_Marketpalooza.000.1": "",
+"Antoine_Marketpalooza.001.1": "",
+
+"Antoine_Spring.000.1": "",
+"Antoine_Spring.001.1": "",
+
+"Antoine_Summer.000.1": "",
+"Antoine_Summer.001.1": "",
+
+"Antoine_Fall.000.1": "",
+"Antoine_Fall.001.1": "",
+
+"Antoine_Winter.000.1": "",
+"Antoine_Winter.001.1": "",
+
+"Antoine_Spring.000.2": "",
+"Antoine_Spring.001.2": "",
+
+"Antoine_Summer.000.2": "",
+"Antoine_Summer.001.2": "",
+
+"Antoine_Fall.000.2": "",
+"Antoine_Fall.001.2": "",
+
+"Antoine_Winter.000.2": "",
+"Antoine_Winter.001.2": "",
+
+"Antoine_Church.000.2": "",
+"Antoine_Church.001.2": "",
+
+"Antoine_Snow.000.2": "Ugh, the ice is stinging my face. I should just go back inside.$a",
+//Indoor Alt: "Antoine_Snow.000.2": "Oh, I'm sorry, @! If I'd known you were coming over I wouldn't have finished off all of my hot chocolate.$s",
+"Antoine_Snow.001.2": "%Antoine is fully focused on just walking forward and completely ignores you.",
+//Indoor Alt: "Antoine_Snow.000.2": "Hey, @. I sort of had a feeling you might be by today so I made some extra glazed yams for you. I even managed to not eat them![208]",  //Note: Antoine is meant to give the farmer glazed yams after saying this.
+
+"Antoine_Rain.000.2": "Ahhhh, the rain feels so good! Don't you think so, @?",
+"Antoine_Rain.001.2": "%Antoine is happily humming to himself and doesn't seem to notice you.",
+
+"Antoine_Nightmarket.000.2": "",
+"Antoine_Nightmarket.001.2": "",
+
+"Antoine_Marketpalooza.000.2": "",
+"Antoine_Marketpalooza.001.2": "",
+
+"Antoine_Spring.000.2": "",
+"Antoine_Spring.001.2": "",
+
+"Antoine_Summer.000.2": "",
+"Antoine_Summer.001.2": "",
+
+"Antoine_Fall.000.2": "",
+"Antoine_Fall.001.2": "",
+
+"Antoine_Winter.000.2": "",
+"Antoine_Winter.001.2": "",
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+//                                                                          //
+//           ███    ███  ██████  ██    ██ ██ ███████ ███████                //
+//           ████  ████ ██    ██ ██    ██ ██ ██      ██                     //
+//           ██ ████ ██ ██    ██ ██    ██ ██ █████   ███████                //
+//           ██  ██  ██ ██    ██  ██  ██  ██ ██           ██                //
+//           ██      ██  ██████    ████   ██ ███████ ███████                //
+//                                                                          //
+//////////////////////////////////////////////////////////////////////////////
+
+/*/
+
+Note: This is some generic movie dialog I mentioned, just in case someone has a movie mod installed. It is commented out so that it does not break anything.
+
+"Antoine.movies.#.before": "I'm really excited. I don't really like going to the movies by myself, and everyone in town seems to already have a favorite person that they'd rather watch one with.$0#$b#It really means a lot that you think about me as a favorite person that you want to see a movie with.$h", 
+"Antoine.movies.#.during": "null", //Antoine has no reaction during the movie | "Response": "like",
+"Antoine.movies.#.after": "The snack you got me was really delicious! Huh? What did I think of the movie? Um, I got a little lost so I'm not actually sure I understood what it was about.$0#$b#I hope you're not disappointed. I'd love to go to the movies with you again.$h",
+
+/*/
+
+/*/ Invites /*/
+"MovieInvite.Antoine.spring.1": "You want me to watch a movie with you? Oh, I'd love to, @!$h",
+"MovieInvite.Antoine.spring.2": "This is turning out to be a pretty great day. A movie sounds really fun!$h",
+
+"MovieInvite.Antoine.summer.1": "Ha ha, you're in luck, I just managed to wrap up what I was doing. A movie sounds great.$h",
+"MovieInvite.Antoine.summer.2": "A movie with you? I think I have time for that. Sure!$h",
+
+"MovieInvite.Antoine.fall.1": "Oh, a movie sounds good, but, uh, do you think it'll be scary?$h",
+"MovieInvite.Antoine.fall.2": "A movie? Sure. Hmm, I wonder what kind of snacks they'll have in stock.$0",
+
+"MovieInvite.Antoine.winter.1": "Oh, thanks for the invitation, @. I'm, um, I'm excited.%0",
+"MovieInvite.Antoine.winter.2": "Uh, you want me to go to a movie? I mean, thanks. The theater's heater is working, right?$s",
+
+/*/ Brave Little Sapling /*/
+"Antoine.movies.0.before": "%Antoine is visibly excited.", 
+"Antoine.movies.0.during": "%Antoine is leaning forward, absolutely enthralled.",//"Response": "love",
+"Antoine.movies.0.after": "The message in this movie is so important, don't you think? The balance between sadness and happiness is crucial to a good life.$h#$b#Too much rain would drown the earth, but too much sun can also burn and make things dry and hollow. It's comforting to be reminded of things like that.$0",
+
+
+/*/ Natural Wonders /*/
+"Antoine.movies.1.before": "This movie should be very educational, I'm looking forward to it.$h", 
+"Antoine.movies.1.during": "%Antoine is paying very close attention.",//"Response": "love",
+"Antoine.movies.1.after": "I really liked that. I learned a lot and the animals were absolutely adorable!",
+
+
+/*/ The Prairie King /*/
+"Antoine.movies.2.before": "I hear the Prairie King is very exciting. Thank you for inviting me to see it with you.$h",
+//"ResponsePoint": "PK_villain",
+//"Script": "/message \"Antoine is on the edge of his seat.\"",
+"Antoine.movies.2.during": "No, sheriff! Look out!$9",//"Response": "like",
+"Antoine.movies.2.after": "That was exciting! I'm really glad that the sheriff managed to keep that wagon train safe, but I think I need to go home and take a nap now.$h",
+
+
+/*/ Wumbus /*/
+"Antoine.movies.3.before": "I'm really looking forward to this one!$h",
+"Antoine.movies.3.during": "%Antione looks absolutely delighted and is laughing quite hard at all of the funny moments.",//"Response": "love",
+//"Script": "/message \"Antoine is laughing.\"",
+"Antoine.movies.3.after": "I think I need a FoodBot too!$h",
+
+
+/*/ Mysterium /*/
+"Antoine.movies.4.before": "Oh, I've heard really interesting things about this one.",
+"Antoine.movies.4.during": "%Antoine has a puzzled look on his face, but is also totally enraptured.",//"Response": "love",
+"Antoine.movies.4.after": "That was so interesting! The existential nihilism was perfectly encapsulated by the thirty minute bone dance.$h",
+
+
+/*/ It Howls In The Rain /*/
+"Antoine.movies.5.before": "I, um, thanks for inviting me. I'll admit I'm a little nervous about this one.",
+"Antoine.movies.5.during": "%Antione is tightly gripping his shirt.",//"Response": "like",
+"Antoine.movies.5.after": "D-do you think you could walk me home?$9#$b#Ha, ha. Never mind. I can make it on my own, I think.$0",
+
+
+/*/ Miracle At Coldstar Ranch /*/
+"Antoine.movies.6.before": "Um, you want to go see a movie with me? Right now? I mean, I guess I will, since you're the one that's asking @.$s",
+//"Script": "/message \"Antoine took his coat off and is using it like a blanket.\"",
+"Antoine.movies.6.during": "Hmm? No, I'm having a good time. The theater is nice and warm.$0",//"Response": "neutral",
+"Antoine.movies.6.after": "Hey, @, do you really buy into this Winter Star stuff?$s#$b#I mean, it's a nice story and all, but it feels a little ... hollow, I guess? I love magic, but relying on it to not starve? ...$6#$b#Sorry, I know you brought me to have a good time. I hope I didn't bring the mood down too much.$0",
+
+
+/*/ Zuzu City Express /*/
+"Antoine.movies.7.before": "Oh, isn't this a romantic movie? I find those a little ... frustrating.$s",
+"Antoine.movies.7.during": "This is so unfair. She can't possibly make an informed choice right now.$a",//"Response": "neutral",
+"Antoine.movies.7.after": "How disappointing. The movie could have at least had the courtesy of giving us a proper ending after so much drama.$s#$b#Oh, uh, sorry I didn't hate the movie or anything. The choice just seemed so obvious from the start and it was sort of tiring to watch her keep going back to him.$0",
+
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//                                                                       //
+//           ███████ ██   ██ ████████ ██████   █████  ███████            //
+//           ██       ██ ██     ██    ██   ██ ██   ██ ██                 //
+//           █████     ███      ██    ██████  ███████ ███████            //
+//           ██       ██ ██     ██    ██   ██ ██   ██      ██            //
+//           ███████ ██   ██    ██    ██   ██ ██   ██ ███████            //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+
+/*/
+
+Note: These are just here so that you have them to refer to later when they become relevant. 
+
+They're not meant to be added to alpha release.
+
+I do intend to expand on them when we're actually working on animations.
+
+/*/
+
+
+
+/*/ Animation Strings /*/
+
+/*/
+//TOO BUSY FOR FARMER      //These are intended to be used with Antoine's casting and Headphones animations to indicate to the farmer that he either can't talk right now, or doesn't notice them.
+
+	//Antoine Busy Casting
+	"AnBusyCasting.01": "%Antoine smiles at you, but is too busy casting to speak to you right now.",
+
+	//Antoine Listing to Headphones
+	"AnGoodTunes.01": "%Antoine is too engrossed in his music to notice you.",
+
+
+//LAPTOP COMMENTARY      //These would be in his laptop animation if you interact with Antoine while he's typing.
+
+	//Cat Video "Flower Crashes Cat" - https://www.youtube.com/watch?v=ncNwe13rguE
+	"AnAtlaptop.01": "Have you seen this video, @? A girl is singing a folk song to her cat, then puts a flower put on top of it's head and gets a look of existential dread, like it's seeing straight into the heart of the universe. It's pretty funny.$h",
+
+
+//READING A BOOK        //When Antoine is chilling out and reading a book he would love to tell the Farmer all about what he's reading.
+
+	//Generic Book
+	"AnReadBook.01": "Hi, @. I'm sort of absorbed in this book here. I hope you don't mind.$0",
+    "AnReadBook.02": "I'm reading a really interesting book on echolocation. Ha ha, it certainly explains why bats seem to speak so loudly.$h",
+    "AnReadBook.03": "This book? It's about the pros and cons of syllabaries vs. alphabets vs. glyphs. Alphabets are quite limiting with roughly only 100 symbols to convey language, but syllabaries can have several hundreds more. It'd be quite intimidating to learn them all.$0",
+    "AnReadBook.04": "Hmm? Oh, this is less of a book and more of an essay about why bicycles just never caught on in Stardew Valley$0",
+
+    //Elliott's Book
+    "AnReadElBook.01": "Oh, I'm reading %book. Elliott should be very proud of it, he's an exceptional writer.$0",
+
+    //Rodney's Book
+    "AnReadRBookDwarf.01": "Ah, this is the book Rodney wrote about, ah, I probably shouldn't say their name. I don't think he's knows it's about them anyway.$0",
+
+    "AnReadRBookShadow.01": "This book is very ... well Rodney certainly has an interesting take on shadow folks.$h",
+
+
+//TOO DAMN COLD
+
+	//Antoine Busy Casting - Winter Edition
+	"AnBusyCastingBrr.01": "%Antoine ignores you because he's is too busy casting to speak to you right now."
+	
+	//Antoine Listing to Headphones - Winter Edition
+	"AnGoodTunesBrr.01": "%Antoine looks sort of miserable and definitely doesn't want to talk right now.",
+/*/
+
+
+
+
+

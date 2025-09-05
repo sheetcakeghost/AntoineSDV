@@ -1,0 +1,305 @@
+//Basic Heart Events
+{0-Heart (Introduction)
+}
+
+{3-Heart
+Day - Sunny - Cindersnap Forest
+Actors: Antoine, Farmer, Junimo
+Dependency: Must have seen 0 Heart Introduction
+Note: This taking place in the secret woods is not important. The event can be relocated.
+
+Script
+//The farmer finds Antoine in the forest in the rain, the sounds of junimo meeps can be heard. Antoine walks off screen in the direction of the deep woods and the farmer follows him. Now inside the deep woods (avoid having the farmer walk through the entrance in case they haven't unlocked it yet) Antoine is gone and instead there are just junimo chatting together. 
+
+Red: "You should come home, we all miss you."
+Yellow: "Yeah! We miss you!"
+Green: "We miss your magic too! That magic is fun!"
+Red: "You'll come home and teach us magic, right?"
+Pink: "I don't want to go home yet. I still have a lot to learn!" 
+Red: "Why do you have to learn from humans?"
+Yellow: "Yeah!"
+Red: "Yeah!"
+Pink: "Because I'm … I just want to be with humans."
+Red: "But why? They can't see us."
+Green: "And they're messy." 
+Yellow: "And stinky!"
+Pink: "I don't think they're that bad, and some humans can see us."
+Red: "The wizard? They're weird."
+Yellow: "And they took one of our friends!"
+Green: "Yeah, it really scared them being in one place and then suddenly in a totally different one."
+Pink: "The wizard did send our friend back."
+Green: "Yeah, but they were never the same."
+Red: "Never the same!"
+Yellow: "Eeek! I think that human is looking at us!"
+Green: "It can see us! Run away!"
+Red: "Run away!"
+
+//The junimo run away. Pink remains behind to stare at the farmer.
+
+Pink: "Hi, @. Um, just wait right here. Okay?"
+
+//Pink leaves the screen, the sound of rustling bushes and magic place, then Antoine enters
+
+An: "Sorry, I was told that I shouldn't change in front of people.$0" 
+An: "Or was it get changed?$7"
+An: "Anyway, I guess you're probably confused. But ... we're friends, right, @? I can probably tell you.$h"
+An: "That was my family just now. I like to come here and visit them when I have the chance to.$0"
+An: "They followed me all the way here. They care about me a lot, but ... well they think I'm just here to learn new magic from humans.$0"
+An: "I, um, I'm not sure how to explain it. I just don't really think of myself as a junimo? I know I was created as one, but I can just feel deep down that I'm not.$u"
+An: "The druid in Turnabout was the only person willing to help me. I went to wizards and witches from all over and all of them said it was too dangerous.$s"
+An: "But that druid… He said yes. He gave me this body and taught me how to maintain it with magic. We weren't even friends. He just saw something in need and … helped it.$h"
+An: "It might sound silly, but I know my family won't understand any of this. So I've been telling them I'm pretending to be a human. That I got a human body to let other people see me. But I'm not pretending. I am human. $0"
+An: "Don't tell this to a lot of people though. I don't want people to look at me and just think about what I was before.$s"
+An: "Do you understand where I'm coming from, @?$7"
+An: "I mean, I guess it doesn't matter if you do. So long as you don't think of my as anybody but Antoine.$h"
+An: "Thanks for being so understanding. Do you want to hang out for a while? I'll walk you home after.$h"
+
+The farmer stumbles on a conversation between junimo and learns something about Antoine.}
+
+{6-Heart
+}
+
+{8-Heart
+}
+
+{10-Heart
+}
+
+{?-Heart
+Night - Any Weather - Antoine's Treehouse
+Actors: Antoine, Junimos, Farmer
+Dependency: Must have seen Heart Events 3, 6, and 8
+
+Script
+Letter: Hi, @! Could you come by my place tonight? I'd like your help with something big! Thanks in advance! Antoine.
+
+An: "Hey! You made it! Thanks for coming by. I invited my family here tonight and I want to tell them the truth about me. I was really hoping you'd come because I kind of need the emotional support. Don't worry, you won't have to say or do anything. Just be here.$h"
+
+Blue: "We're here! We're here!"
+Yellow: "You want to come home now, right?"
+Green: "Yay! You're done learning magic!"
+An: "Sorry, that isn't what this is about.$s"
+Blue: "It's not?"
+Green: "Oh, what is it?"
+Yellow: "Yeah! What is it?!"
+An: "Well. Um. So. I wanted to explain…$s"
+Green: "What is it?"
+Yellow: "Yeah, you're being weird."
+An: "So. I'm human.$s"
+Blue: "Duh. That's pretty obvious."
+Yellow: "Yeah!"
+An: "No, I mean. Not just right now. I am. Just always have been.$6"
+Junimo: "???"
+Blue: "That's cool! You're a cool human!"
+Green: "Why would you want to be human?"
+Yellow: "Wait. So we're not learning magic?"
+An: "I'll still teach you guys more magic. Don't worry.$h"
+Junimo: "YAY! Awesome!"
+An: (laughs)
+
+Letter Received After the Event
+@! Thanks so much for helping me talk to my family! It went really well, and I'm so happy. If not for you I never would have taken that chance! So thank you! I wanted to give you something nice too. I hope you really enjoy it. The next time you come and see me, if my family is there, you can say hi! I made sure they understand you're a very good human.
+A gift is attached.
+
+Antoine sends the farmer a letter inviting them to his house that night. He wants to tell his family that he's really human, and he needs some emotional support.}
+
+//Extra Heart Events (Pelican Town)
+{0-Heart (Wizard)
+
+Day - Raining - Cindersnap Forest
+Actors: Antoine, Wizard, Farmer
+Dependency: Must have seen Heart Events 3
+
+Script
+Wizard: "You really should be more careful. I know you just want to help, but a lot of people fear what they don't understand, and magic is a complicated art that most can't comprehend.$0"
+An: "You don't give them enough credit! Everyone I've shown magic has been very accepting and curious.$a"
+Wizard: "For now, but eventually they'll become greedy and fearful, and if things go poorly, you'll be the first one they blame.$0"
+An: "I don't think they'd blame me.$s"
+Wizard: "They'll blame anything that isn't themselves, but if you're so determined, at least slow down on how much you cast. If you keep going at this rate you'll end up shortening your lifespan drastically.$0"
+An: "I know that. I think it'll be worth it.$0"
+Wizard: "You just feel that way because you're young. When you get closer to the end of your life you'll regret that you didn't take care to give yourself more time.
+An: I don't mean any offense, but you have no idea what you're talking about.$8"
+Wizard: "Hmm, I suppose I'll leave you to that opinion then. Don't say you weren't warned.$0" (teleports away)
+An: (expresses the ellipses emote and then turns and notices farmer) "Oh, ha ha, did you see that whole thing? The wizard did something very nice for me once, so now they feel a tad bit responsible for me.$0"
+An: "It's a little annoying, but also … nice. Having someone care about you, even just a little bit, it feels good.$h"
+An: "Don't make that face. I have plenty of people that care about me, don't worry! I just like to remind myself how nice it feels so that I never forget to care about other people.$0"
+An: "I care about you too. You've been very kind to me, and I want you to know that it means a lot.$0"
+An: "I need to walk back home now, but remember that you're always welcome to come over and just chat.$h"
+An: "Bye, @. Thanks for listening to me. You're a really great listener.$h"
+
+The Wizard and Antoine are butting heads.}
+
+{?-Heart (Linus)
+Night - Sunny - Mountains (Outside Linus' Tent, around his lit fire)
+Actors: Antoine, Jessie, Linus
+Dependency: Must have seen Heart Events 3 P2
+
+Script
+Linus: "It's nice to have another like-minded person in town.$h"
+An: "I like being part of a big bustling community, it's really refreshing.$h"
+Linus: "I found the city to be very unpleasant. The people in the town are nice enough, but when too much brick and mortar choke out the grass, it just turns into chaos.$0"
+Jessie: "I find myself in a bit of a middle ground, I suppose. I love being around other people, but nature is wonderful too. It's really hard to have both at the same time though.$0"
+An: "I like the people here a lot, but it does make me sad to see how they choose to live sometimes. So disconnected from the world around them.$0"
+Linus: "That is the folly of civilization. The conveniences it brings often overshadow the wisdom whispered through the trees.$0"
+Linus: "Why contemplate the rock's journey as the stream shapes it slowly into something new when the glow of a screen brings such instant satisfaction.$0"
+Jessie: "A lot of the people in town take time to enjoy nature, Linus, but they aren't obligated to make it their sole focus.$0"
+Linus: "It is not an obligation. It is a choice that they make each day. Their wisdom and growth is shaped by what they use to make their world.$0"
+An: "I've spent my whole life living deep among the trees. A much longer time than many humans can really make claim to.$0"
+An: "Nature is beautiful, but it is also ruthless. It doesn't care for the wellbeing of the rabbit that rustles in its grass.$0"
+An: "Or the bear that catches salmon in the stream to get ready for the bitter winter.$0"
+An: "I love nature with every fiber of my being, but there is a warmth, a kindness, that humans have that nature can't express.$h"
+Linus: "That kindness comes with cruelty. Civilization will always be a double edged sword.$0"
+Jessie: "One extreme is really no better than the other, is it? Without the sun to balance the rain a plant would never grow.$0"
+Linus: "Very well put, Jessie.$h"
+An: "Yeah. Luckily this town seems to have a good balance to it. Doesn't it? I'm really happy to be here.$h"
+Antoine talks to Jessie and Linus about the nature of nature.}
+
+//Extra Heart Events (PT Improvements)
+{Special Event - Community Center Completed
+Night - Any - Town (Outside of Joja-Mart's Ruins)
+Actors: Antoine, Farmer
+
+Script
+An: "(ellipsis emote 0)"
+An: "It's completely gone. Lightning can be very destructive."
+An: "This was the source of a lot of grief for the people in town, I think most are happy to see it go.$s"
+An: "I'm not sure how I feel about it."
+An: "It gave people jobs, and a place to buy food, plus it had a refrigeration unit.$0" 
+An: "I don't think Pierre is going to start bringing in frozen produce, and the only place to get milk around here is Marnie's ranch.$0"
+An: "Oh, and your farm when you have cows.$0"
+An: "It provided a lot of conveniences, but were the people there truly happy?$7"
+An: "I always saw tired faces go in and out when they had that blue uniform on.$8"
+
+Farmer: 
+(Choice 1) "Honestly, good riddance. That place was a blight on the town."
+An: "I'm not surprised you feel that way.$0"
+
+(Choice 2) "Yeah, people were tired, but every job is stressful like that."
+An: "I don't find what I do very stressful. I am very lucky to love what I'm doing, I think. $0"
+
+(Choice 3) "Not everybody can just cheat by using magic."
+An: "I understand how magic can look like cheating, but it does take a lot of work, you know. $h"
+
+An: "JojaMart and Morris were demonized, and I'm not sure it was particularly earned.$s"
+An: "You are the reason the town got any kind of improvements. No one else was lifting a finger.$s"
+An: "Morris was a man with an unkind and disposition, but he was willing to get the work down for the town.$s"
+An: "It would have cost money, but the town could have gotten it together if they were just willing to try.$s"
+An: "It was a force of magic that helped you do what you did. If the junimo hadn't worked hard to bolster the community, would anyone else have done it?$s"
+An: "I suppose I just don't understand why everyone had to be at odds. Morris and the people who worked here were also a part of the community.$s"
+An: "They could have worked together.$s"
+An: "(sad emote 28)"
+An: "I should probably go home. Thanks for listening to me without judgment, @."
+An: "I just need to … cool off for a while.$0"
+
+Antoine talks to the Farmer about his complicated feelings towards the Joja-Mart.}
+
+{Special Event - Joja-Mart Wins
+Night - After Joja-Mart is closed for the day - Town (Outside of Joja-Mart)
+Actors: Antoine, Farmer
+
+Script
+An: (facing the Joja-mart as he speaks to the farmer) "Are you happy, @?$8"
+Farmer: "(question emote 4)"
+An: "Does this place, even with the dark energies it pours into this town, does it make you happy? Does it make anyone happy?$8"
+An: "Is my understanding of people really that limited, even now?$a" 
+An: "Will I ever understand them? Am I even a person if I can't understand them?$6"
+
+Farmer: 
+	(Choice 1) "I am happy, yes. No one else was going to do anything to fix this town."
+	An: "You're right about that, but the junimo were willing to try.$s"
+
+	(Choice 2) "No, Joja-Mart doesn't make me happy. But it doesn't make me miserable either. It just kind of. Does both and neither of those things."
+	An: "That is … very confusing, but thank you for trying to explain it. $0"
+	
+(Choice 3) "I never figured you for the existential crisis type."
+An: "How else could I feel about this? I'm so connected to nature and the earth, and that building just existing is toxic for both things.$8"
+
+An: (ellipsis emote 0)
+An: "This place creates such dark energies. All I can feel when I am near it is the negativity that it pours into the town. I just can't - how can a place like this ever make anyone happy so long as it exists?$s"
+An: "I want to understand, @. I really do. $s"
+An: "I think I'm going to need some time to … consider this. Excuse me. $s"
+Antoine is having an existential crisis and the farmer has some concerns.}
+
+//Extra Heart Events (East Scarp)
+{0-Heart (Rosa)
+Day - Sunny - East Scarp Beach
+Actors: Antoine, Rosa
+Dependency: Must have seen 0 Heart Introduction
+
+Script
+Rosa: "Thanks for helping me get all the sand out of the gears, Antoine.$h"
+An: "It's no trouble at all! My magic makes this really easy for me! I took care of some salt and rust too!$h"
+Rosa: "Really? Thanks a lot! I was going to have to send it out to be repaired soon, but now I don't have to.$h"
+An: "Nope! Is there anything else I can do for you?$0"
+Rosa: "Nah, nothing for me, but I bet Aideen could use a hand. She's working herself too hard again.$0"
+An: "Aideen? Whenever I ask her if she needs help she scowls at me.$s"
+Rosa: "Maybe it's the way you're phrasing it. Instead of saying 'need help' try 'want help' you know? Women can be strange about implying they have to have the help of a man to get by.$h"
+An: "Really? But you're a woman and you don't seem to mind my help.$7"
+Rosa: "Sure, but I don't usually have men throwing themselves at me to win my favor either.$0"
+An: "?$7"
+Rosa: "Right, I'm just confusing you again, huh? Don't worry about it. Just ask Deen if she *wants* help next time.$h"
+An: "Okay! I'll do that! Thanks!$h"
+Rosa: "Sure. Hey, could you head over to the Inn and take a look at the refrigerator? I need to make sure it's still running.$0"
+An: "Oh! I know this one! You'd better go catch it, right?$h"
+Rosa: "Ha ha, just come with me.$h"
+Antoine is using magic to help Rosa get sand out of the wheels of her cart.}
+
+{0-Heart (Aideen)
+Day - Any Weather - Inside Aideen's
+Actors: Antoine, Aideen, Farmer
+Dependency: Must have seen 0 Heart Introduction
+
+Script
+Aideen: "Hmmm. Not pink. Maybe blue?$0"
+An: "Sure!$0"
+Aideen: "No, that's not quite right either. Purple.$0"
+An: "This flower isn't usually purple.$7"
+Aideen: "No, but if we're using magic we might as well think out of the box, right?$h"
+An: "Oh, I guess so.$0"
+Aideen: "Is there a problem?$0"
+An: "Well I'm not sure the flower wants to be purple. I think it prefers being a color it knows.$s"
+Aideen: "Oh I'm sure any flower would be thrilled to get to be something new and exciting, don't you?$h"
+An: "Um. Maybe. I guess I'll try it.$h"
+Aideen: "Please.$0"
+(magic cast)
+Aideen: "Yellow? That's not quite purple.$0"
+An: "Sorry, it must have wanted to try yellow.$9"
+Aideen: "Right, well, if that's the best you can manage. Yellow is quite striking.$0"
+An: "I think it likes being yellow best.$h"
+Aideen: "I can be content with this. Why don't you go into the kitchen and have a snack. I have another arrangement I need to put together and I'm bursting with ideas for this new yellow flower.$0"
+An: "Sure thing! Thanks for letting me help!$h"
+Aideen: "Of course, of course.$0"
+Antoine is using magic to help Aideen with her flowers, changing the color of them so that she can perfect her arrangement.}
+
+{0-Heart (Jacob and Eloise)
+Day - Sunny - Town Center
+Actors: Antoine, Jacob, Eloise, Slime, Farmer
+Dependency: Must have seen 0 Heart Introduction
+
+Script
+Jacob: "How did you even find something like this?$0"
+An: "I was exploring the orchard and found it in that abandoned house. Can you help it?$7"
+Jacob: "I don't know. Monsters aren't really in my wheelhouse. Maybe that wizard in Cindersnap or Marlon…$0"
+An: "I can't go to them!$a"
+Jacob: (Question mark emote)
+An: "Sorry. I didn't mean to yell. I'm just really worried that they'll just see him as something to kill. Or worse. Experiment on.$8"
+Jacob: "Right. Well. I'm not sure I can help you much.$0"
+Eloise: (comes in frame and expresses an exclamation emote) "Is that a slime? Oh how cute!$h" (rushes over to pet it)
+Jacob: "Wait! Don't!$0"
+Eloise: (is stopped by Jacob)
+Jacob: "Don't touch it.$0"
+Eloise: "Huh? Why not? Antoine touched it to bring it here, didn't he?$0"
+An: "I didn't touch it with just my hands. I used special gloves so I could do it without it hurting me.$0"
+Eloise: "But if it can hurt people why did you bring him to daddy to help it?$0"
+An: "Because it can't help that it hurts people. See, the membrane on the outside that keeps all the jelly in it has a coating that burns if you touch it. There are a lot of animals that have things like that to protect themselves from things that would want to hurt it. That doesn't mean we should be less kind when we see one hurt or in danger.$h"
+Eloise: "Oh, okay, I understand. It looks a little dry. Maybe it needs some water?$h"
+An: "That's a very good idea, Eloise. Thank you.$h" (casts magic to wet the slime)
+Slime: (comes to life)
+Eloise: "Ooh! That's much better!$h"
+An: "I really should have thought to do that first.$h"
+Eloise: "Oh, it's okay. Sometimes I don't think of really obvious things too.$h"
+Jacob: "Are you planning to keep this thing?$0"
+An: "Definitely not. It's still a wild monster, and it's just cruel to confine wild things.$0" "Thank you both for helping me!$h"
+Jacob: "I didn't really do much, but you're welcome.$0"
+Antoine brings Jacob a sick slime to look at.}
+

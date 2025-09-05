@@ -1,0 +1,94 @@
+{ 
+/////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                         //
+//           ███████ ████████  █████  ███    ██ ██████   █████  ██████  ██████             //
+//           ██         ██    ██   ██ ████   ██ ██   ██ ██   ██ ██   ██ ██   ██            //
+//           ███████    ██    ███████ ██ ██  ██ ██   ██ ███████ ██████  ██   ██            //
+//                ██    ██    ██   ██ ██  ██ ██ ██   ██ ██   ██ ██   ██ ██   ██            //
+//           ███████    ██    ██   ██ ██   ████ ██████  ██   ██ ██   ██ ██████             //
+//                                                                                         //
+/////////////////////////////////////////////////////////////////////////////////////////////
+    
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Antoine",
+    "Entries": {
+    "Introduction": "{{i18n:intro.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "danceRejection": "{{i18n:rejection.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "divorced": "{{i18n:divorced.{{TargetWithoutPath}}.{{season}}.{{Random:1,2,3,4,5,6}}}}",
+    "breakUp": "{{i18n:breakup.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Entering": "{{i18n:enter.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Leaving": "{{i18n:leave.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Shore": "{{i18n:shore.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Umbrella": "{{i18n:umbrella.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Wander": "{{i18n:wander.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort_Bar": "{{i18n:bar.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Resort": "{{i18n:resort.{{TargetWithoutPath}}.{{Random:1,2}}}}",
+    "Mon": "{{i18n:mon.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue": "{{i18n:tue.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed": "{{i18n:wed.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu": "{{i18n:thu.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri": "{{i18n:fri.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat": "{{i18n:sat.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun": "{{i18n:sun.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Mon2": "{{i18n:mon2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue2": "{{i18n:tue2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed2": "{{i18n:wed2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu2": "{{i18n:thu2.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri2": "{{i18n:fri2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat2": "{{i18n:sat2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun2": "{{i18n:sun2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Mon4": "{{i18n:mon4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue4": "{{i18n:tue4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed4": "{{i18n:wed4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu4": "{{i18n:thu4.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri4": "{{i18n:fri4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat4": "{{i18n:sat4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun4": "{{i18n:sun4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Mon6": "{{i18n:mon6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue6": "{{i18n:tue6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed6": "{{i18n:wed6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu6": "{{i18n:thu6.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri6": "{{i18n:fri6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat6": "{{i18n:sat6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun6": "{{i18n:sun6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Mon8": "{{i18n:mon8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue8": "{{i18n:tue8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed8": "{{i18n:wed8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu8": "{{i18n:thu8.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri8": "{{i18n:fri8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat8": "{{i18n:sat8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun8": "{{i18n:sun8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Mon10": "{{i18n:mon10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Tue10": "{{i18n:tue10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Wed10": "{{i18n:wed10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Thu10": "{{i18n:thu10.{{TargetWithoutPath}}.{{season}}..{{Random:1,2}}}}",
+    "Fri10": "{{i18n:fri10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sat10": "{{i18n:sat10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Sun10": "{{i18n:sun.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon": "{{i18n:saloon.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon2": "{{i18n:saloon2.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon4": "{{i18n:saloon4.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon6": "{{i18n:saloon6.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon8": "{{i18n:saloon8.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon10": "{{i18n:saloon10.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+    "Saloon_Entry": "{{i18n:saloonentry.{{TargetWithoutPath}}.{{season}}.{{Random:1,2,3,4}}}}",
+    "MovieInvite_Invited_{{TargetWithoutPath}}":"{{i18n:MovieInvite.{{TargetWithoutPath}}.{{season}}.{{Random:1,2}}}}",
+
+
+
+///////////////////////////////////////////////////////////////////////////
+//                                                                       //
+//           ███████ ██   ██ ████████ ██████   █████  ███████            //
+//           ██       ██ ██     ██    ██   ██ ██   ██ ██                 //
+//           █████     ███      ██    ██████  ███████ ███████            //
+//           ██       ██ ██     ██    ██   ██ ██   ██      ██            //
+//           ███████ ██   ██    ██    ██   ██ ██   ██ ███████            //
+//                                                                       //
+///////////////////////////////////////////////////////////////////////////
+//Remember to comment me out before sending./*/
+
+
+//Remember to comment me out before sending./*/
+    }
+  },
+

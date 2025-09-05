@@ -1,0 +1,108 @@
+/************************************************
+* Antoine
+************************************************/
+  //VANILLA
+
+  /*/
+  Note: I don't expect you to animate every tiny thing I mention in this schedule stuff.
+
+  That information is there to give you context, not directions.
+  
+  So if something is too complicated to animate easily, you can totally ignore it. d:
+  /*/
+
+         {"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/Antoine",
+
+"Entries": {
+
+//Note: Generic season entries were written with the assumption they would be used on days he is not working.
+
+"spring": "6:10am cooks, eats breakfast at picnic blanket in yard/7am goes out to forage/11am goes to have a lunch with his neighbor the frog/12pm goes to school to teach kids about agriculture (if it is not a school day he socializes with any nearby Turnabout residents)/3pm listens to music as he walks home to cook/5pm delivers desserts and snacks he just made to everyone in town/9pm goes home to mess around on laptop/10pm goes to bed",
+
+"summer": "6:10am cooks, eats breakfast at picnic blanket in yard/7am goes out and has a chat with his neighbor the frog/8am goes to forage/11am goes to have lunch with Lyell/3pm listens to music while walking to the waterfall under the frog then keeps listening to music while sticking his feet in the water/4pm goes home to cook/5pm delivers desserts and snacks he just made to everyone in town and socializes/8pm lays down on the picnic blanket in his yard and looks at the stars/9pm goes home to mess around on laptop/10pm goes to bed",
+
+"fall": "6:10 cooks breakfast inside and eats it while he messes around on his laptop/7am goes to to saloon to have lunch/1pm goes to Cindersnap forest to collect forage and visit family/6pm goes home to bed",
+
+/*/
+Note: In the winter time he stays home as often as possible, lounges around, and generally does depression things like eat junk and live on the Internet, this is prime time for any NPCs to visit him at his place. 
+
+I would imagine everyone knows about his seasonal depression by now, and given how helpful and kind he is every other season, some might like to pay him back some by making sure he's not lonely and is taking care of himself. (And who knows, some residents may actually prefer the company of existential nihilist Antoine over how he is normally, lol.) 
+
+He would interact with them while they're there, and that would change his schedule slightly. 
+/*/
+
+"winter": "6:10 has cereal for breakfast inside and messes around on laptop/12pm eats junk food for lunch while he goes to school to teach kids about the Environment (if it is not a school day he eats junk food in bed and naps)/3pm goes home (or doesn't) and messes around on his laptop/5pm eats snacks at his laptop instead of dinner/8pm goes to bed",
+
+//Note: Cleaning would probably use wiping animation and maintenance would probably use the magic casting animation.
+
+"Spring.Mon": "10am makes breakfast and eats it at the picnic blanket in his yard/11am tends to mushroom tables under the market stand and cleans statue of man in hat with gun/12pm has late lunch at Nicolai's picnic table/1pm goes to school to teach kids about agriculture/3pm cleans and maintains playground equipment/4pm cleans and gravestones in graveyard/6pm has dinner at pink mushroom table in graveyard/7pm maintains mushroom tables/9pm goes home to bed",
+
+//Note: Inspecting crops and checking soil would probably use the casting animation. 
+
+"Spring.Tues": "6:10am goes to picnic blanket in yard and has breakfast/7am goes to Lyell's garden to check his soil, weed, and inspect his giant crops/9am weeds the garden to the south of town/11am has lunch at Nicolai's picnic table/12pm goes to the school to teach the children about agriculture/3pm checks giant flower at what I'm assuming is Valerie's place/4pm goes home and cleans his house/6pm has dinner and messes around on laptop/10pm goes to bed",
+
+//Note: Antoine doesn't go to the school on Thursdays because he is going to ES and just doesn't have time. The hour that he teaches in would be replaced with them watching a documentary instead.
+
+"Spring.Thurs": "6:10am goes to picnic blanket in yard and has breakfast/7am goes to ES inn to clean/12pm goes to Aideen's to cast magic at flowers/1pm goes to Jacob's vet office to clean and maintain their barn (interior)/2pm uses the kitchen at the Inn to cook dinner/3pm takes the dinner he made to Lexi's cave and eats it with Lexi)/6pm sits at the lighthouse and looks out at the ocean/9pm goes home to mess around on laptop/10pm goes to bed",
+
+"Spring.Fri": "6:10am goes to picnic blanket in yard and has breakfast/7am uses magic to clean the pond scum and algae out of the lake that his neighbor the frog sits in/9am goes out to forage/11am goes home to eat a fresh forage salad for lunch at Nikolai's picnic table/12pm goes to to school to teach kids agriculture/3pm cleans gravestones, pulls weeds, and grows flowers on the graves at graveyard/6pm goes home and messes around on laptop/8pm goes to bed",
+
+"Spring.Sat": "6:10am has breakfast on the bridge under his neighbor the frog and chats with him/7am goes to have a lunch at saloon/1pm goes to Pierre's to buy seeds/2pm listens to music at the library while he reads a book/6pm goes to the saloon to socialize/9pm hangs out with Lyell when he arrives/10pm goes home to bed",
+
+
+"Summer.Mon": "10am has breakfast at picnic blanket in yard/11am tends to mushroom tables under the market stand/12pm has lunch at the mushroom tables he was maintaining/11am cleans and maintains playground equipment/12pm has lunch at Nicolai's picnic table/1pm cleans and weeds gravestones at left of graveyard by tree/2pm cleans and weeds gravestones at top of graveyard/4pm maintains mushroom tables in graveyard/6pm has dinner at pink mushroom table on the left/7pm goes home to mess around on laptop/9pm to bed",
+
+"Summer.Tues": "6:10am goes to picnic blanket in yard and has breakfast/7am goes to Lyell's garden to check his soil, weed, and inspect his giant crops/9am weeds the garden to the south of town/12pm has lunch at Nicolai's picnic table/1pm checks giant flower at what I'm assuming is Valerie's place/3pm /4pm goes home and cleans his house/5pm has dinner and messes around at laptop/9pm goes to bed",
+
+"Summer.Thurs": "6:10am goes to picnic blanket in yard and has breakfast/7am goes home and makes snacks/12pm goes to have a magical lunch with Valerie and give her and her mother snacks/1pm goes to ES inn to clean/3pm goes to Aideen's to cast magic at flowers/4pm socializes with ES residents/5pm goes to Jacob's vet office to clean and maintain their barn (interior)/6pm has late dinner at ES Inn/7pm goes home to mess around on laptop/9pm goes to bed",
+
+"Summer.Fri": "GOTO Spring.Fri",
+
+"Summer.Sat": "GOTO Spring.Sat",
+
+
+"Fall.Mon": "6:10 has breakfast inside/7am tends to mushroom tables under the market stand/8am cleans statue of man in hat with gun/9am cleans and maintains playground equipment/12pm has lunch at Nicolai's picnic table/1pm goes to school to teach kids about forestry/2pm begins to clean and weed first set of gravestones in graveyard/3pm cleans and weeds gravestones at left of graveyard by tree/4pm cleans and weeds gravestones at top of graveyard/5pm has dinner at pink mushroom table on the left/6pm maintains mushroom tables/7pm goes home to bed",
+
+"Fall.Tues": "6:10 has breakfast inside/7am goes to Lyell's garden to check his soil, weed, and inspect his giant crops/10am weeds the garden to the south of town/12am has lunch at Nicolai's picnic table/1pm goes to the school to teach the children about forestry/3pm checks giant flower at what I'm assuming is Valerie's place/4pm goes home and cleans his house/6pm has dinner at home/8pm goes to bed",
+
+"Fall.Thurs": "6:10 has breakfast inside/7am goes home and makes snacks/12pm goes to have a magical lunch with Valerie and give her and her mother snacks/1pm goes to school to teach kids about forestry/2pm goes to ES inn to clean/4pm goes to Aideen's to cast magic at flowers/5pm socializes with ES residents/6pm goes to Jacob's vet office to clean and maintain their barn (interior)/7pm has late dinner at ES Inn/7pm goes home to mess around on laptop/8pm goes to bed",
+
+"Fall.Fri": "GOTO Spring.Fri",
+
+"Fall.Sat": "6:10 has breakfast inside/7am goes to Pierre's seed shop/8am brings purchased goods back home/12pm has lunch at home and makes pies out of the fruits and berries he's been foraging/1pm delivers fresh pies to everyone in town and socializes/6pm goes home and messes around on laptop/10pm goes to bed",
+
+
+"Winter.Mon": "6:10 sleeps in/11am gets up and eats cereal for breakfast while he messes around on his laptop/12pm goes to school to teach kids about the Environment/3pm maintains mushroom tables in graveyard/4pm maintains mushroom tables at market stand by home/5pm goes home and eats junk food at his laptop/10pm goes to bed",
+
+"Winter.Tues": "6:10 sleeps in/11am gets up and eats cereal for breakfast while he messes around on his laptop/12pm goes to the school to teach the children about agriculture (also brings them snacks)/3pm goes home and messes around on laptop/6pm makes and eats dinner at home/10pm goes to bed",
+
+"Winter.Thurs": "6:10 sleeps in/11am gets up and eats cereal for breakfast while he messes around on his laptop/1pm goes to ES inn to clean/3pm goes to Aideen's to cast magic at flowers/4pm goes to Jacob's vet office to clean and maintain their barn (interior)/5pm buys dinner at ES Inn and has it with Lexi/7pm goes home to mess around on laptop/10pm goes to bed",
+
+"Winter.Fri": "6:10 sleeps in/11am stays inside and messes around on laptop/12pm goes to school to teach kids about the Environment/5pm goes home and cooks a frozen pizza/6pm eats entire pizza while messing around on laptop/7pm goes to bed",
+
+//Note: Antoine wants to be rained on and does not use an umbrella (he would also be shirtless if it wasn't totally inappropriate to do so lol).
+
+"rain.spring": "6:10 has quick breakfast inside/7am goes to cindersnap forest and lays down on the dock by the lake/11 has lunch at the Wizard's tower (presumably with the Wizard, if the timing doesn't line up he will have lunch there earlier or later depending on when the Wizard is inside)/2pm goes home to cook/6pm brings every turnabout NPC snacks and desserts (he will enter their home if they are staying inside to not be in the rain)/8pm goes to shrine at Lyell's to pay respects and check on giant flowers/11pm goes home to bed",
+"rain.summer": "6:10 has quick breakfast inside/7am goes to cindersnap forest and lays down on the dock by the lake/12pm has lunch at the Wizard's tower/2pm goes to saloon and buys snacks and desserts/3pm brings every turnabout NPC the snacks and desserts he bought/11pm goes to shrine at Lyell's to pay respects and check on giant flowers/10pm goes home to bed",
+"rain.fall": "6:10 has breakfast inside/7am listens to music while messing around at laptop/12pm cooks lunch for himself and eats it at laptop/1pm goes to school to teach kids agriculture (if school is not in session he will stay home)/2pm messes around on laptop if he has gone to the school/6pm eats leftovers while at laptop/11pm goes to bed",
+"rain.fall.mon": "GOTO fall.mon",
+"rain.fall.tues": "GOTO fall.tues",
+"rain.fall.thurs": "GOTO fall.thurs",
+"rain.fall.fri": "GOTO fall.fri",
+}
+            },
+              //VANILLA
+         {"LogName": "Schedule Edit",
+"Action": "EditData",
+"Target": "Characters/schedules/Antoine",
+
+//Antoine will not leave the house when it is snowing unless he is forced to by an event.
+"Entries": {
+"winter": "6:10 sleeps in/12pm skips breakfast and listens to music while he goes to the school to teach kids about the Environment (if it is not a school day he will instead stay home and eat cereal at his laptop/3pm goes home (or doesn't) to cook two frozen pizzas and eats one entire pizza while on his laptop/6pm eats second pizza that has been sitting out since lunch while at laptop/12am goes to bed",
+},   
+ "When": {
+        "Weather": "snow"
+    }
+},
